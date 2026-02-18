@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Exercise Library — 55+ Pilates Exercises for Black Women | PilatesForWomen.com</title>
+  <meta name="description" content="The most comprehensive Pilates exercise database designed for Black women. 55+ exercises across 14 categories — core, pelvic floor, hips, spine, athletic, breath work, and more. Search, filter, and master every movement.">
+  <meta name="keywords" content="Pilates exercises, exercise database, Pilates for Black women, core exercises, pelvic floor exercises, athletic Pilates, posture exercises, flexibility, breath work">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pilatesforwomen.com/exercises/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pilatesforwomen.com/exercises/">
+  <meta property="og:title" content="Exercise Library — 55+ Pilates Exercises | PilatesForWomen.com">
+  <meta property="og:description" content="The most comprehensive Pilates exercise database designed for Black women. Search, filter, and master every movement.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&h=630&fit=crop&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Pilates Exercise Library",
+    "description": "55+ Pilates exercises across 14 categories for Black women",
+    "url": "https://pilatesforwomen.com/exercises/",
+    "isPartOf": { "@type": "WebSite", "name": "PilatesForWomen.com", "url": "https://pilatesforwomen.com" },
+    "about": { "@type": "ExercisePlan", "exerciseType": "Pilates" },
+    "numberOfItems": 55
+  }
+  </script>
+  <link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/exercises/">
+  <link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/exercises/">
+  <link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/exercises/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <meta name="theme-color" content="#1a1a2e">
+  <style>
+    .page-hero { background:var(--color-primary); color:var(--color-white); padding:calc(var(--nav-height) + var(--space-4xl)) 0 var(--space-4xl); text-align:center; position:relative; overflow:hidden; }
+    .page-hero::before { content:''; position:absolute; top:-50%; right:-30%; width:800px; height:800px; background:radial-gradient(circle,rgba(201,169,110,0.08),transparent 70%); pointer-events:none; }
+    .page-hero__title { font-size:clamp(2.25rem,5vw,3.5rem); margin-bottom:var(--space-md); position:relative; }
+    .page-hero__desc { font-family:var(--font-accent); font-size:1.2rem; color:rgba(255,255,255,0.65); font-style:italic; max-width:600px; margin:0 auto var(--space-2xl); position:relative; }
+    .page-hero__breadcrumb { font-size:0.82rem; color:rgba(255,255,255,0.4); margin-bottom:var(--space-xl); position:relative; }
+    .page-hero__breadcrumb a { color:rgba(255,255,255,0.5); transition:color var(--transition-base); }
+    .page-hero__breadcrumb a:hover { color:var(--color-accent); }
+    .page-hero__stats { display:flex; justify-content:center; gap:var(--space-3xl); position:relative; }
+    .page-hero__stat-num { font-family:var(--font-heading); font-size:2rem; font-weight:800; color:var(--color-accent); }
+    .page-hero__stat-label { font-size:0.78rem; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.1em; }
+    .database-full { background:var(--color-cream); }
+    .database-full .database__controls { position:sticky; top:var(--nav-height); z-index:50; background:var(--color-white); box-shadow:var(--shadow-md); border-radius:0 0 var(--radius-xl) var(--radius-xl); margin-bottom:var(--space-2xl); }
+    .difficulty-filters { display:flex; gap:var(--space-sm); flex-wrap:wrap; }
+    .difficulty-filters .database__filter--beginner.database__filter--active { background:#7c9082; color:white; }
+    .difficulty-filters .database__filter--intermediate.database__filter--active { background:#c9a96e; color:white; }
+    .difficulty-filters .database__filter--advanced.database__filter--active { background:#b76e79; color:white; }
+    .exercise-detail { display:none; position:fixed; inset:0; z-index:10000; background:rgba(0,0,0,0.7); backdrop-filter:blur(8px); padding:20px; overflow-y:auto; }
+    .exercise-detail.active { display:flex; align-items:center; justify-content:center; }
+    .exercise-detail__card { background:var(--color-cream); border-radius:var(--radius-2xl); max-width:700px; width:100%; max-height:90vh; overflow-y:auto; position:relative; }
+    .exercise-detail__close { position:absolute; top:16px; right:16px; width:40px; height:40px; border-radius:50%; background:rgba(0,0,0,0.5); color:white; display:flex; align-items:center; justify-content:center; font-size:1.2rem; z-index:1; cursor:pointer; border:none; }
+    .exercise-detail__image { width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:var(--radius-2xl) var(--radius-2xl) 0 0; }
+    .exercise-detail__body { padding:var(--space-2xl); }
+    .exercise-detail__category { font-size:0.72rem; font-weight:600; text-transform:uppercase; letter-spacing:0.12em; color:var(--color-accent-dark); margin-bottom:var(--space-sm); }
+    .exercise-detail__name { font-family:var(--font-heading); font-size:1.75rem; color:var(--color-primary); margin-bottom:var(--space-md); }
+    .exercise-detail__desc { font-size:1rem; color:var(--color-text-light); line-height:1.8; margin-bottom:var(--space-xl); }
+    .exercise-detail__meta { display:grid; grid-template-columns:repeat(3,1fr); gap:var(--space-md); margin-bottom:var(--space-xl); }
+    .exercise-detail__meta-item { text-align:center; padding:var(--space-md); background:var(--color-white); border-radius:var(--radius-lg); }
+    .exercise-detail__meta-label { font-size:0.7rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--color-text-muted); margin-bottom:4px; }
+    .exercise-detail__meta-value { font-family:var(--font-heading); font-size:1.1rem; font-weight:700; color:var(--color-primary); }
+    .exercise-detail__targets { display:flex; flex-wrap:wrap; gap:var(--space-sm); }
+    .exercise-detail__target { padding:8px 18px; border-radius:var(--radius-full); background:var(--color-white); font-size:0.85rem; color:var(--color-text-light); border:1px solid var(--color-light-gray); }
+    @media(max-width:768px) {
+      .page-hero__stats { flex-direction:column; gap:var(--space-lg); align-items:center; }
+      .exercise-detail__meta { grid-template-columns:1fr; }
+    }
+    @media(max-width:480px) {
+      .database-full .database__controls { position:relative; top:auto; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content sr-only">Skip to main content</a>
+
+  <!-- NAVIGATION -->
+  <nav class="nav nav--scrolled" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="PilatesForWomen Home"><span class="nav__logo-icon">✦</span> PilatesForWomen</a>
+      <div class="nav__links">
+        <a href="/" class="nav__link">Home</a>
+        <a href="/exercises/" class="nav__link nav__link--active">Exercise Library</a>
+        <a href="/seasons/" class="nav__link">Seasons</a>
+        <a href="/athletic/" class="nav__link">Athletic</a>
+        <a href="/programs/" class="nav__link">Programs</a>
+        <a href="/about/" class="nav__link">About</a>
+      </div>
+      <div class="nav__actions">
+        <div class="lang-switcher">
+          <a href="/exercises/" class="lang-switcher__btn lang-switcher__btn--active">EN</a>
+          <a href="/es/exercises/" class="lang-switcher__btn">ES</a>
+          <a href="/fr/exercises/" class="lang-switcher__btn">FR</a>
+        </div>
+        <a href="/programs/" class="btn btn--accent btn--sm">Start Training</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="nav__mobile">
+      <a href="/" class="nav__mobile-link">Home</a>
+      <a href="/exercises/" class="nav__mobile-link">Exercise Library</a>
+      <a href="/seasons/" class="nav__mobile-link">Movement Seasons</a>
+      <a href="/athletic/" class="nav__mobile-link">Athletic Mode</a>
+      <a href="/programs/" class="nav__mobile-link">Programs</a>
+      <a href="/about/" class="nav__mobile-link">About</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <header class="page-hero" id="main-content">
+    <div class="container">
+      <div class="page-hero__breadcrumb">
+        <a href="/">Home</a> / <span>Exercise Library</span>
+      </div>
+      <h1 class="page-hero__title">Exercise Library</h1>
+      <p class="page-hero__desc">The most comprehensive Pilates exercise database designed for Black women. Search, filter, and master every movement.</p>
+      <div class="page-hero__stats">
+        <div>
+          <div class="page-hero__stat-num" data-counter="55" data-suffix="+">0</div>
+          <div class="page-hero__stat-label">Exercises</div>
+        </div>
+        <div>
+          <div class="page-hero__stat-num" data-counter="14">0</div>
+          <div class="page-hero__stat-label">Categories</div>
+        </div>
+        <div>
+          <div class="page-hero__stat-num" data-counter="3">0</div>
+          <div class="page-hero__stat-label">Difficulty Levels</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- FULL DATABASE -->
+    <section class="database database-full section-padding" aria-labelledby="db-title">
+      <div class="container">
+        <h2 class="sr-only" id="db-title">Browse All Exercises</h2>
+
+        <div class="database__controls">
+          <div class="database__search">
+            <span class="database__search-icon" aria-hidden="true">🔍</span>
+            <input type="search" placeholder="Search by name, muscle group, or focus area..." aria-label="Search exercises" id="exercise-search">
+          </div>
+          <div class="database__filters" role="group" aria-label="Category filters">
+            <button class="database__filter database__filter--active" data-filter="all">All</button>
+            <button class="database__filter" data-filter="core">Core</button>
+            <button class="database__filter" data-filter="pelvic">Pelvic Floor</button>
+            <button class="database__filter" data-filter="hips">Hips & Glutes</button>
+            <button class="database__filter" data-filter="spine">Spine</button>
+            <button class="database__filter" data-filter="shoulders">Upper Body</button>
+            <button class="database__filter" data-filter="breath">Breath & NS</button>
+            <button class="database__filter" data-filter="athletic">Athletic</button>
+            <button class="database__filter" data-filter="flexibility">Flexibility</button>
+            <button class="database__filter" data-filter="posture">Posture</button>
+            <button class="database__filter" data-filter="postpartum">Postpartum</button>
+            <button class="database__filter" data-filter="longevity">Longevity 35+</button>
+            <button class="database__filter" data-filter="stress">Stress Recovery</button>
+            <button class="database__filter" data-filter="reformer">Reformer-Inspired</button>
+          </div>
+          <div class="difficulty-filters" role="group" aria-label="Difficulty filters">
+            <button class="database__filter database__filter--beginner" data-difficulty="beginner">Beginner</button>
+            <button class="database__filter database__filter--intermediate" data-difficulty="intermediate">Intermediate</button>
+            <button class="database__filter database__filter--advanced" data-difficulty="advanced">Advanced</button>
+          </div>
+        </div>
+
+        <p class="database__count">Showing <strong>55</strong> exercises</p>
+
+        <div class="database__grid" id="exercise-grid"></div>
+
+        <div class="database__load-more">
+          <button class="btn btn--outline" id="load-more-btn">Load More Exercises <span class="btn__icon" aria-hidden="true">↓</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXERCISE DETAIL MODAL -->
+    <div class="exercise-detail" id="exercise-modal" role="dialog" aria-label="Exercise details">
+      <div class="exercise-detail__card">
+        <button class="exercise-detail__close" aria-label="Close" id="modal-close">&times;</button>
+        <img class="exercise-detail__image" id="modal-image" src="" alt="" width="700" height="394">
+        <div class="exercise-detail__body">
+          <div class="exercise-detail__category" id="modal-category"></div>
+          <h3 class="exercise-detail__name" id="modal-name"></h3>
+          <p class="exercise-detail__desc" id="modal-desc"></p>
+          <div class="exercise-detail__meta">
+            <div class="exercise-detail__meta-item">
+              <div class="exercise-detail__meta-label">Difficulty</div>
+              <div class="exercise-detail__meta-value" id="modal-difficulty"></div>
+            </div>
+            <div class="exercise-detail__meta-item">
+              <div class="exercise-detail__meta-label">Duration</div>
+              <div class="exercise-detail__meta-value" id="modal-duration"></div>
+            </div>
+            <div class="exercise-detail__meta-item">
+              <div class="exercise-detail__meta-label">Focus</div>
+              <div class="exercise-detail__meta-value" id="modal-muscles"></div>
+            </div>
+          </div>
+          <h4 style="font-size:0.85rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--color-text-muted);margin-bottom:var(--space-md);">Targets</h4>
+          <div class="exercise-detail__targets" id="modal-targets"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA SECTION -->
+    <section class="newsletter section-padding">
+      <div class="container">
+        <div class="newsletter__inner">
+          <h2 class="newsletter__title">Start Your Movement Journey</h2>
+          <p class="newsletter__desc">Join thousands of women building strength, calm, and longevity through form-first Pilates.</p>
+          <div style="display:flex;gap:var(--space-md);justify-content:center;flex-wrap:wrap;">
+            <a href="/programs/" class="btn btn--accent btn--lg">Explore Programs</a>
+            <a href="/" class="btn btn--outline-light btn--lg">Back to Home</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">✦ PilatesForWomen</div>
+          <p class="footer__tagline">The definitive movement home for Black women. Form-first, cycle-aware, performance-capable Pilates.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="footer__social-link" aria-label="YouTube">YT</a>
+            <a href="#" class="footer__social-link" aria-label="TikTok">TK</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Pages</h4>
+          <div class="footer__links">
+            <a href="/" class="footer__link">Home</a>
+            <a href="/exercises/" class="footer__link">Exercise Library</a>
+            <a href="/seasons/" class="footer__link">Movement Seasons</a>
+            <a href="/athletic/" class="footer__link">Athletic Mode</a>
+            <a href="/programs/" class="footer__link">Programs</a>
+            <a href="/about/" class="footer__link">About</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Languages</h4>
+          <div class="footer__links">
+            <a href="/exercises/" class="footer__link">English</a>
+            <a href="/es/exercises/" class="footer__link">Español</a>
+            <a href="/fr/exercises/" class="footer__link">Français</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Support</h4>
+          <div class="footer__links">
+            <a href="#" class="footer__link">Help Center</a>
+            <a href="#" class="footer__link">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 PilatesForWomen.com. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="../js/database.js"></script>
+  <script src="../js/main.js"></script>
+  <script>
+  (function() {
+    var LANG = 'en';
+    var grid = document.getElementById('exercise-grid');
+    var searchInput = document.getElementById('exercise-search');
+    var catFilters = document.querySelectorAll('.database__filters .database__filter');
+    var diffFilters = document.querySelectorAll('.difficulty-filters .database__filter');
+    var countEl = document.querySelector('.database__count strong');
+    var loadMoreBtn = document.getElementById('load-more-btn');
+    var modal = document.getElementById('exercise-modal');
+
+    var currentCat = 'all';
+    var currentDiff = null;
+    var currentSearch = '';
+    var displayCount = 24;
+
+    function getFiltered() {
+      return EXERCISE_DATABASE.filter(function(ex) {
+        var matchCat = currentCat === 'all' || ex.category === currentCat;
+        var matchDiff = !currentDiff || ex.difficulty === currentDiff;
+        var matchSearch = true;
+        if (currentSearch) {
+          var s = currentSearch.toLowerCase();
+          matchSearch = (ex.name[LANG]||ex.name.en).toLowerCase().indexOf(s) !== -1 ||
+            (ex.description[LANG]||ex.description.en).toLowerCase().indexOf(s) !== -1 ||
+            (ex.muscles[LANG]||ex.muscles.en).toLowerCase().indexOf(s) !== -1 ||
+            ex.category.indexOf(s) !== -1;
+        }
+        return matchCat && matchDiff && matchSearch;
+      });
+    }
+
+    function render() {
+      var filtered = getFiltered();
+      var toShow = filtered.slice(0, displayCount);
+      if (countEl) countEl.textContent = filtered.length;
+      grid.innerHTML = toShow.map(function(ex) {
+        var dc = 'exercise-card__difficulty--' + ex.difficulty;
+        var dl = DIFFICULTY_LABELS[LANG] ? DIFFICULTY_LABELS[LANG][ex.difficulty] : ex.difficulty;
+        var targets = ex.targets[LANG] || ex.targets.en;
+        return '<div class="exercise-card" data-id="' + ex.id + '" tabindex="0" role="button" aria-label="View ' + (ex.name[LANG]||ex.name.en) + '">' +
+          '<div class="exercise-card__header"><img src="' + ex.image + '" alt="' + (ex.name[LANG]||ex.name.en) + '" loading="lazy" width="600" height="400"><span class="exercise-card__difficulty ' + dc + '">' + dl + '</span></div>' +
+          '<div class="exercise-card__body"><div class="exercise-card__muscle">' + (ex.muscles[LANG]||ex.muscles.en) + '</div><h3 class="exercise-card__name">' + (ex.name[LANG]||ex.name.en) + '</h3>' +
+          '<div class="exercise-card__targets">' + targets.map(function(t){return '<span class="exercise-card__target">' + t + '</span>';}).join('') + '</div></div></div>';
+      }).join('');
+      loadMoreBtn.style.display = filtered.length > displayCount ? '' : 'none';
+      // Bind card clicks
+      grid.querySelectorAll('.exercise-card').forEach(function(card) {
+        card.addEventListener('click', function() { openModal(parseInt(card.dataset.id)); });
+        card.addEventListener('keydown', function(e) { if (e.key === 'Enter') openModal(parseInt(card.dataset.id)); });
+      });
+    }
+
+    function openModal(id) {
+      var ex = EXERCISE_DATABASE.find(function(e) { return e.id === id; });
+      if (!ex) return;
+      document.getElementById('modal-image').src = ex.image;
+      document.getElementById('modal-image').alt = ex.name[LANG] || ex.name.en;
+      document.getElementById('modal-category').textContent = (EXERCISE_CATEGORIES[LANG] || EXERCISE_CATEGORIES.en)[ex.category] || ex.category;
+      document.getElementById('modal-name').textContent = ex.name[LANG] || ex.name.en;
+      document.getElementById('modal-desc').textContent = ex.description[LANG] || ex.description.en;
+      document.getElementById('modal-difficulty').textContent = (DIFFICULTY_LABELS[LANG] || DIFFICULTY_LABELS.en)[ex.difficulty];
+      document.getElementById('modal-duration').textContent = ex.duration;
+      document.getElementById('modal-muscles').textContent = ex.muscles[LANG] || ex.muscles.en;
+      var targets = ex.targets[LANG] || ex.targets.en;
+      document.getElementById('modal-targets').innerHTML = targets.map(function(t) {
+        return '<span class="exercise-detail__target">' + t + '</span>';
+      }).join('');
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    document.getElementById('modal-close').addEventListener('click', closeModal);
+    modal.addEventListener('click', function(e) { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
+
+    var searchTimer;
+    searchInput.addEventListener('input', function() {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(function() { currentSearch = searchInput.value.trim(); displayCount = 24; render(); }, 250);
+    });
+
+    catFilters.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        catFilters.forEach(function(b) { b.classList.remove('database__filter--active'); });
+        btn.classList.add('database__filter--active');
+        currentCat = btn.dataset.filter;
+        displayCount = 24;
+        render();
+      });
+    });
+
+    diffFilters.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        if (btn.classList.contains('database__filter--active')) {
+          btn.classList.remove('database__filter--active');
+          currentDiff = null;
+        } else {
+          diffFilters.forEach(function(b) { b.classList.remove('database__filter--active'); });
+          btn.classList.add('database__filter--active');
+          currentDiff = btn.dataset.difficulty;
+        }
+        displayCount = 24;
+        render();
+      });
+    });
+
+    loadMoreBtn.addEventListener('click', function() { displayCount += 24; render(); });
+
+    render();
+  })();
+  </script>
+</body>
+</html>
