@@ -855,6 +855,379 @@ const EXERCISE_DATABASE = [
     },
     duration: "10 min",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&q=80"
+  },
+
+  // === NEW EXERCISES (Expansion) ===
+
+  // --- CORE ---
+  {
+    id: 56,
+    name: { en: "Roll Over", es: "Volteo", fr: "Renversement" },
+    category: "core",
+    difficulty: "advanced",
+    muscles: { en: "Core & Spine", es: "Core y Columna", fr: "Core et Colonne" },
+    targets: { en: ["Spinal articulation", "Core control", "Hamstring flexibility"], es: ["Articulacion espinal", "Control del core", "Flexibilidad de isquiotibiales"], fr: ["Articulation vertebrale", "Controle du core", "Souplesse des ischio-jambiers"] },
+    description: {
+      en: "Supine exercise rolling the legs overhead with control, requiring deep core engagement and spinal segmental mobility.",
+      es: "Ejercicio en posicion supina rodando las piernas sobre la cabeza con control, requiriendo activacion profunda del core y movilidad segmentaria espinal.",
+      fr: "Exercice en decubitus dorsal roulant les jambes au-dessus de la tete avec controle, necessitant un engagement profond du core et une mobilite segmentaire vertebrale."
+    },
+    duration: "5 min",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 57,
+    name: { en: "Scissors", es: "Tijeras", fr: "Ciseaux" },
+    category: "core",
+    difficulty: "intermediate",
+    muscles: { en: "Lower Abs & Hip Flexors", es: "Abdominales Inferiores y Flexores", fr: "Abdominaux Inferieurs et Flechisseurs" },
+    targets: { en: ["Lower ab strength", "Hamstring stretch", "Coordination"], es: ["Fuerza abdominal inferior", "Estiramiento de isquiotibiales", "Coordinacion"], fr: ["Force abdominale inferieure", "Etirement des ischio-jambiers", "Coordination"] },
+    description: {
+      en: "Alternating leg splits in the air while maintaining a stable pelvis and upper body curl. Challenges coordination and lower abdominal control.",
+      es: "Divisiones alternadas de piernas en el aire mientras se mantiene una pelvis estable y curvatura del torso. Desafia la coordinacion y control abdominal inferior.",
+      fr: "Ecarts alternes des jambes en l'air tout en maintenant un bassin stable et une flexion du torse. Defie la coordination et le controle abdominal inferieur."
+    },
+    duration: "4 min",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 58,
+    name: { en: "Open Leg Rocker", es: "Mecedora de Piernas Abiertas", fr: "Balancier Jambes Ouvertes" },
+    category: "core",
+    difficulty: "intermediate",
+    muscles: { en: "Core & Balance", es: "Core y Equilibrio", fr: "Core et Equilibre" },
+    targets: { en: ["Balance", "Core stability", "Hamstring flexibility"], es: ["Equilibrio", "Estabilidad del core", "Flexibilidad de isquiotibiales"], fr: ["Equilibre", "Stabilite du core", "Souplesse des ischio-jambiers"] },
+    description: {
+      en: "Balancing on the sit bones with legs extended in a V-shape, rocking back and forth with control and returning to balance.",
+      es: "Equilibrandose sobre los isquiones con las piernas extendidas en V, meciendose hacia atras y adelante con control y regresando al equilibrio.",
+      fr: "Equilibre sur les ischions avec les jambes etendues en V, se balancant d'avant en arriere avec controle et retournant a l'equilibre."
+    },
+    duration: "5 min",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- PELVIC FLOOR ---
+  {
+    id: 59,
+    name: { en: "Pelvic Clock", es: "Reloj Pelvico", fr: "Horloge Pelvienne" },
+    category: "pelvic",
+    difficulty: "beginner",
+    muscles: { en: "Pelvic Floor & Deep Core", es: "Suelo Pelvico y Core Profundo", fr: "Plancher Pelvien et Core Profond" },
+    targets: { en: ["Pelvic awareness", "Lumbar mobility", "Core connection"], es: ["Conciencia pelvica", "Movilidad lumbar", "Conexion del core"], fr: ["Conscience pelvienne", "Mobilite lombaire", "Connexion du core"] },
+    description: {
+      en: "Subtle pelvic tilting through clock positions (12, 3, 6, 9) to build awareness of pelvic positioning and deep core activation.",
+      es: "Inclinaciones pelvicas sutiles a traves de posiciones de reloj (12, 3, 6, 9) para construir conciencia de posicionamiento pelvico y activacion profunda del core.",
+      fr: "Basculements pelviens subtils a travers les positions d'horloge (12, 3, 6, 9) pour developper la conscience du positionnement pelvien et l'activation profonde du core."
+    },
+    duration: "6 min",
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 60,
+    name: { en: "Pelvic Floor Relaxation Sequence", es: "Secuencia de Relajacion del Suelo Pelvico", fr: "Sequence de Relaxation du Plancher Pelvien" },
+    category: "pelvic",
+    difficulty: "beginner",
+    muscles: { en: "Pelvic Floor", es: "Suelo Pelvico", fr: "Plancher Pelvien" },
+    targets: { en: ["Tension release", "Pelvic floor down-training", "Breath coordination"], es: ["Liberacion de tension", "Relajacion del suelo pelvico", "Coordinacion respiratoria"], fr: ["Liberation de tension", "Relachement du plancher pelvien", "Coordination respiratoire"] },
+    description: {
+      en: "Not all pelvic floor work is about tightening. This sequence teaches conscious relaxation and release of the pelvic floor muscles.",
+      es: "No todo el trabajo del suelo pelvico se trata de contraer. Esta secuencia ensena la relajacion consciente y la liberacion de los musculos del suelo pelvico.",
+      fr: "Tout le travail du plancher pelvien ne consiste pas a serrer. Cette sequence enseigne la relaxation consciente et la liberation des muscles du plancher pelvien."
+    },
+    duration: "8 min",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- HIPS & GLUTES ---
+  {
+    id: 61,
+    name: { en: "Standing Hip Circles", es: "Circulos de Cadera de Pie", fr: "Cercles de Hanche Debout" },
+    category: "hips",
+    difficulty: "beginner",
+    muscles: { en: "Hip Complex", es: "Complejo de Cadera", fr: "Complexe de Hanche" },
+    targets: { en: ["Hip mobility", "Balance", "Joint lubrication"], es: ["Movilidad de cadera", "Equilibrio", "Lubricacion articular"], fr: ["Mobilite de hanche", "Equilibre", "Lubrification articulaire"] },
+    description: {
+      en: "Standing on one leg while drawing controlled circles with the free hip, building balance and full hip joint range of motion.",
+      es: "De pie sobre una pierna mientras se dibujan circulos controlados con la cadera libre, construyendo equilibrio y rango completo de movimiento de la articulacion de cadera.",
+      fr: "Debout sur une jambe en dessinant des cercles controles avec la hanche libre, developpant l'equilibre et l'amplitude complete de l'articulation de la hanche."
+    },
+    duration: "5 min",
+    image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 62,
+    name: { en: "Banded Glute Walk", es: "Caminata de Gluteos con Banda", fr: "Marche des Fessiers avec Bande" },
+    category: "hips",
+    difficulty: "intermediate",
+    muscles: { en: "Glute Medius & Minimus", es: "Gluteo Medio y Menor", fr: "Moyen et Petit Fessier" },
+    targets: { en: ["Lateral glute strength", "Hip stability", "Knee alignment"], es: ["Fuerza lateral de gluteos", "Estabilidad de cadera", "Alineacion de rodilla"], fr: ["Force laterale des fessiers", "Stabilite de hanche", "Alignement du genou"] },
+    description: {
+      en: "Lateral walking with resistance band targeting the often-neglected glute medius and minimus for hip stability and knee protection.",
+      es: "Caminata lateral con banda de resistencia dirigida al gluteo medio y menor frecuentemente descuidados para estabilidad de cadera y proteccion de rodilla.",
+      fr: "Marche laterale avec bande de resistance ciblant le moyen et petit fessier souvent negliges pour la stabilite de hanche et la protection du genou."
+    },
+    duration: "6 min",
+    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- SPINE ---
+  {
+    id: 63,
+    name: { en: "Rolling Like a Ball", es: "Rodando como Pelota", fr: "Rouler comme une Balle" },
+    category: "spine",
+    difficulty: "beginner",
+    muscles: { en: "Core & Spine", es: "Core y Columna", fr: "Core et Colonne" },
+    targets: { en: ["Spinal massage", "Core control", "Balance"], es: ["Masaje espinal", "Control del core", "Equilibrio"], fr: ["Massage vertebral", "Controle du core", "Equilibre"] },
+    description: {
+      en: "A playful yet precise rolling exercise that massages the spine, builds abdominal control, and teaches smooth momentum management.",
+      es: "Un ejercicio de rodamiento ludico pero preciso que masajea la columna, construye control abdominal y ensena manejo suave del impulso.",
+      fr: "Un exercice de roulement ludique mais precis qui masse la colonne, developpe le controle abdominal et enseigne la gestion douce de l'elan."
+    },
+    duration: "4 min",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 64,
+    name: { en: "Neck Pull", es: "Tiraje de Cuello", fr: "Traction du Cou" },
+    category: "spine",
+    difficulty: "advanced",
+    muscles: { en: "Abs & Back Extensors", es: "Abdominales y Extensores de Espalda", fr: "Abdominaux et Extenseurs du Dos" },
+    targets: { en: ["Spinal articulation", "Deep ab strength", "Hamstring flexibility"], es: ["Articulacion espinal", "Fuerza abdominal profunda", "Flexibilidad de isquiotibiales"], fr: ["Articulation vertebrale", "Force abdominale profonde", "Souplesse des ischio-jambiers"] },
+    description: {
+      en: "An advanced roll-up variation with hands behind the head, requiring greater abdominal strength and full spinal articulation control.",
+      es: "Una variacion avanzada del enrollamiento con manos detras de la cabeza, requiriendo mayor fuerza abdominal y control de articulacion espinal completa.",
+      fr: "Une variation avancee de l'enroulement avec les mains derriere la tete, necessitant une plus grande force abdominale et un controle complet de l'articulation vertebrale."
+    },
+    duration: "5 min",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- SHOULDERS & UPPER BODY ---
+  {
+    id: 65,
+    name: { en: "Chest Expansion", es: "Expansion de Pecho", fr: "Expansion de Poitrine" },
+    category: "shoulders",
+    difficulty: "beginner",
+    muscles: { en: "Chest & Shoulders", es: "Pecho y Hombros", fr: "Poitrine et Epaules" },
+    targets: { en: ["Chest opening", "Shoulder mobility", "Posture correction"], es: ["Apertura de pecho", "Movilidad de hombro", "Correccion postural"], fr: ["Ouverture de poitrine", "Mobilite d'epaule", "Correction posturale"] },
+    description: {
+      en: "Kneeling or standing arm press behind the body, opening the chest and shoulders while building upper back strength and improving posture.",
+      es: "Presion de brazos de rodillas o de pie detras del cuerpo, abriendo pecho y hombros mientras construye fuerza de espalda alta y mejora la postura.",
+      fr: "Pression des bras a genoux ou debout derriere le corps, ouvrant la poitrine et les epaules tout en developpant la force du haut du dos et ameliorant la posture."
+    },
+    duration: "5 min",
+    image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 66,
+    name: { en: "Arm Weight Series", es: "Serie de Pesos de Brazos", fr: "Serie de Poids de Bras" },
+    category: "shoulders",
+    difficulty: "intermediate",
+    muscles: { en: "Arms & Shoulders", es: "Brazos y Hombros", fr: "Bras et Epaules" },
+    targets: { en: ["Arm toning", "Shoulder stability", "Postural endurance"], es: ["Tonificacion de brazos", "Estabilidad de hombro", "Resistencia postural"], fr: ["Tonification des bras", "Stabilite d'epaule", "Endurance posturale"] },
+    description: {
+      en: "Light weight standing series combining bicep curls, tricep presses, and shoulder raises with Pilates principles of alignment and breath.",
+      es: "Serie de pie con pesos ligeros combinando curls de biceps, presiones de triceps y elevaciones de hombros con principios de Pilates de alineacion y respiracion.",
+      fr: "Serie debout avec poids legers combinant curls de biceps, pressions de triceps et elevations d'epaules avec les principes Pilates d'alignement et de respiration."
+    },
+    duration: "8 min",
+    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- BREATH & NERVOUS SYSTEM ---
+  {
+    id: 67,
+    name: { en: "Extended Exhale Practice", es: "Practica de Exhalacion Extendida", fr: "Pratique d'Expiration Prolongee" },
+    category: "breath",
+    difficulty: "beginner",
+    muscles: { en: "Diaphragm & Nervous System", es: "Diafragma y Sistema Nervioso", fr: "Diaphragme et Systeme Nerveux" },
+    targets: { en: ["Vagus nerve activation", "Calm", "Sleep quality"], es: ["Activacion del nervio vago", "Calma", "Calidad del sueno"], fr: ["Activation du nerf vague", "Calme", "Qualite du sommeil"] },
+    description: {
+      en: "Breath practice with emphasis on lengthening the exhale to activate the parasympathetic nervous system and promote deep calm.",
+      es: "Practica de respiracion con enfasis en alargar la exhalacion para activar el sistema nervioso parasimpatico y promover calma profunda.",
+      fr: "Pratique de respiration avec accent sur l'allongement de l'expiration pour activer le systeme nerveux parasympathique et favoriser un calme profond."
+    },
+    duration: "8 min",
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- ATHLETIC ---
+  {
+    id: 68,
+    name: { en: "Swimmer's Shoulder Protocol", es: "Protocolo de Hombro para Nadadoras", fr: "Protocole d'Epaule pour Nageuses" },
+    category: "athletic",
+    difficulty: "intermediate",
+    muscles: { en: "Shoulders & Thoracic", es: "Hombros y Toracica", fr: "Epaules et Thoracique" },
+    targets: { en: ["Shoulder health", "Thoracic rotation", "Stroke efficiency"], es: ["Salud del hombro", "Rotacion toracica", "Eficiencia de brazada"], fr: ["Sante de l'epaule", "Rotation thoracique", "Efficacite de nage"] },
+    description: {
+      en: "Shoulder mobility and stability work specific to swimmers: rotator cuff strengthening, thoracic opening, and overhead control.",
+      es: "Trabajo de movilidad y estabilidad del hombro especifico para nadadoras: fortalecimiento del manguito rotador, apertura toracica y control sobre la cabeza.",
+      fr: "Travail de mobilite et stabilite de l'epaule specifique aux nageuses: renforcement de la coiffe des rotateurs, ouverture thoracique et controle au-dessus de la tete."
+    },
+    duration: "10 min",
+    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 69,
+    name: { en: "Court Sport Agility Prep", es: "Preparacion de Agilidad para Deportes de Cancha", fr: "Preparation d'Agilite pour Sports de Terrain" },
+    category: "athletic",
+    difficulty: "advanced",
+    muscles: { en: "Ankles, Hips & Core", es: "Tobillos, Caderas y Core", fr: "Chevilles, Hanches et Core" },
+    targets: { en: ["Lateral agility", "Quick direction change", "Injury prevention"], es: ["Agilidad lateral", "Cambio rapido de direccion", "Prevencion de lesiones"], fr: ["Agilite laterale", "Changement rapide de direction", "Prevention des blessures"] },
+    description: {
+      en: "Pilates-based prep work for basketball, tennis, and volleyball players: lateral stability, quick stops, and controlled direction changes.",
+      es: "Trabajo preparatorio basado en Pilates para jugadoras de basquetbol, tenis y voleibol: estabilidad lateral, paradas rapidas y cambios de direccion controlados.",
+      fr: "Travail preparatoire base sur le Pilates pour les joueuses de basket, tennis et volley: stabilite laterale, arrets rapides et changements de direction controles."
+    },
+    duration: "12 min",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- FLEXIBILITY ---
+  {
+    id: 70,
+    name: { en: "Hamstring Lengthening Series", es: "Serie de Alargamiento de Isquiotibiales", fr: "Serie d'Allongement des Ischio-jambiers" },
+    category: "flexibility",
+    difficulty: "beginner",
+    muscles: { en: "Hamstrings", es: "Isquiotibiales", fr: "Ischio-jambiers" },
+    targets: { en: ["Hamstring flexibility", "Lower back relief", "Pelvic positioning"], es: ["Flexibilidad de isquiotibiales", "Alivio de espalda baja", "Posicionamiento pelvico"], fr: ["Souplesse des ischio-jambiers", "Soulagement du bas du dos", "Positionnement pelvien"] },
+    description: {
+      en: "Progressive hamstring stretching using straps and gravity, building flexibility safely without compromising pelvic alignment.",
+      es: "Estiramiento progresivo de isquiotibiales usando correas y gravedad, construyendo flexibilidad de forma segura sin comprometer la alineacion pelvica.",
+      fr: "Etirement progressif des ischio-jambiers utilisant des sangles et la gravite, developpant la souplesse en toute securite sans compromettre l'alignement pelvien."
+    },
+    duration: "8 min",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 71,
+    name: { en: "Shoulder & Chest Opener", es: "Apertura de Hombro y Pecho", fr: "Ouverture d'Epaule et Poitrine" },
+    category: "flexibility",
+    difficulty: "beginner",
+    muscles: { en: "Chest & Shoulders", es: "Pecho y Hombros", fr: "Poitrine et Epaules" },
+    targets: { en: ["Chest flexibility", "Shoulder range", "Posture improvement"], es: ["Flexibilidad de pecho", "Rango de hombro", "Mejora postural"], fr: ["Souplesse de poitrine", "Amplitude d'epaule", "Amelioration posturale"] },
+    description: {
+      en: "Targeted opening for the anterior chain: pec stretches, shoulder mobilizations, and thoracic extensions for a desk-free body.",
+      es: "Apertura dirigida para la cadena anterior: estiramientos pectorales, movilizaciones de hombro y extensiones toracicas para un cuerpo libre de escritorio.",
+      fr: "Ouverture ciblee de la chaine anterieure: etirements pectoraux, mobilisations d'epaule et extensions thoraciques pour un corps libere du bureau."
+    },
+    duration: "6 min",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- POSTURE ---
+  {
+    id: 72,
+    name: { en: "Wall Posture Assessment", es: "Evaluacion Postural en Pared", fr: "Evaluation Posturale au Mur" },
+    category: "posture",
+    difficulty: "beginner",
+    muscles: { en: "Postural Muscles", es: "Musculos Posturales", fr: "Muscles Posturaux" },
+    targets: { en: ["Self-assessment", "Alignment awareness", "Baseline tracking"], es: ["Auto-evaluacion", "Conciencia de alineacion", "Seguimiento de base"], fr: ["Auto-evaluation", "Conscience de l'alignement", "Suivi de base"] },
+    description: {
+      en: "Use the wall as a feedback tool to assess your posture: head position, shoulder blade contact, rib cage placement, and pelvic alignment.",
+      es: "Use la pared como herramienta de retroalimentacion para evaluar su postura: posicion de cabeza, contacto de escapulas, colocacion de caja toracica y alineacion pelvica.",
+      fr: "Utilisez le mur comme outil de retour pour evaluer votre posture: position de la tete, contact des omoplates, placement de la cage thoracique et alignement pelvien."
+    },
+    duration: "5 min",
+    image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- LONGEVITY ---
+  {
+    id: 73,
+    name: { en: "Balance Challenge Series", es: "Serie de Desafio de Equilibrio", fr: "Serie de Defi d'Equilibre" },
+    category: "longevity",
+    difficulty: "intermediate",
+    muscles: { en: "Full Body Balance", es: "Equilibrio Corporal Total", fr: "Equilibre Corporel Total" },
+    targets: { en: ["Fall prevention", "Proprioception", "Ankle stability"], es: ["Prevencion de caidas", "Propiocepcion", "Estabilidad de tobillo"], fr: ["Prevention des chutes", "Proprioception", "Stabilite de cheville"] },
+    description: {
+      en: "Progressive balance challenges from tandem stance to single-leg variations with eyes closed, critical for longevity and fall prevention.",
+      es: "Desafios progresivos de equilibrio desde posicion tandem hasta variaciones unilaterales con ojos cerrados, criticos para longevidad y prevencion de caidas.",
+      fr: "Defis d'equilibre progressifs de la position tandem aux variations unilaterales les yeux fermes, essentiels pour la longevite et la prevention des chutes."
+    },
+    duration: "10 min",
+    image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 74,
+    name: { en: "Menopause Strength Flow", es: "Flujo de Fuerza para Menopausia", fr: "Flux de Force pour Menopause" },
+    category: "longevity",
+    difficulty: "intermediate",
+    muscles: { en: "Full Body", es: "Cuerpo Completo", fr: "Corps Complet" },
+    targets: { en: ["Muscle preservation", "Bone loading", "Mood support"], es: ["Preservacion muscular", "Carga osea", "Apoyo del animo"], fr: ["Preservation musculaire", "Charge osseuse", "Soutien de l'humeur"] },
+    description: {
+      en: "Strength-focused flow designed for menopausal women: moderate-heavy loading patterns that support muscle mass, bone density, and mood.",
+      es: "Flujo enfocado en fuerza disenado para mujeres menopausicas: patrones de carga moderada-pesada que apoyan masa muscular, densidad osea y animo.",
+      fr: "Flux axe sur la force conçu pour les femmes menopausees: schemas de charge moderee-lourde soutenant la masse musculaire, la densite osseuse et l'humeur."
+    },
+    duration: "15 min",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- STRESS RECOVERY ---
+  {
+    id: 75,
+    name: { en: "Sunday Reset Flow", es: "Flujo de Reseteo Dominical", fr: "Flux de Reset du Dimanche" },
+    category: "stress",
+    difficulty: "beginner",
+    muscles: { en: "Full Body - Gentle", es: "Cuerpo Completo - Suave", fr: "Corps Complet - Doux" },
+    targets: { en: ["Weekly reset", "Full body release", "Mental clarity"], es: ["Reseteo semanal", "Liberacion corporal total", "Claridad mental"], fr: ["Reset hebdomadaire", "Liberation corporelle totale", "Clarte mentale"] },
+    description: {
+      en: "A gentle full-body flow designed as a weekly ritual. Slow movements, long holds, and intentional breathing to reset body and mind.",
+      es: "Un flujo corporal suave disenado como ritual semanal. Movimientos lentos, sostenidos largos y respiracion intencional para resetear cuerpo y mente.",
+      fr: "Un flux corporel doux conçu comme rituel hebdomadaire. Mouvements lents, maintiens longs et respiration intentionnelle pour reinitialiser corps et esprit."
+    },
+    duration: "20 min",
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop&q=80"
+  },
+  {
+    id: 76,
+    name: { en: "Bedtime Wind-Down", es: "Relajacion para Dormir", fr: "Detente du Coucher" },
+    category: "stress",
+    difficulty: "beginner",
+    muscles: { en: "Full Body Release", es: "Liberacion Corporal Total", fr: "Liberation Corporelle Totale" },
+    targets: { en: ["Sleep preparation", "Muscle relaxation", "Mind quiet"], es: ["Preparacion para dormir", "Relajacion muscular", "Mente tranquila"], fr: ["Preparation au sommeil", "Relaxation musculaire", "Esprit calme"] },
+    description: {
+      en: "A calming pre-sleep sequence combining gentle stretches, progressive muscle relaxation, and extended exhale breathing for better sleep.",
+      es: "Una secuencia calmante pre-sueno combinando estiramientos suaves, relajacion muscular progresiva y respiracion con exhalacion extendida para dormir mejor.",
+      fr: "Une sequence calmante pre-sommeil combinant etirements doux, relaxation musculaire progressive et respiration avec expiration prolongee pour un meilleur sommeil."
+    },
+    duration: "12 min",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- POSTPARTUM ---
+  {
+    id: 77,
+    name: { en: "Diastasis-Safe Core Work", es: "Trabajo de Core Seguro para Diastasis", fr: "Travail de Core Securise pour Diastasis" },
+    category: "postpartum",
+    difficulty: "beginner",
+    muscles: { en: "Transverse Abdominis", es: "Transverso del Abdomen", fr: "Transverse de l'Abdomen" },
+    targets: { en: ["Diastasis recovery", "Deep core activation", "Safe rebuilding"], es: ["Recuperacion de diastasis", "Activacion profunda del core", "Reconstruccion segura"], fr: ["Recuperation du diastasis", "Activation profonde du core", "Reconstruction securisee"] },
+    description: {
+      en: "Gentle exercises specifically designed for diastasis recti recovery: transverse abdominis activation without creating abdominal pressure.",
+      es: "Ejercicios suaves disenados especificamente para recuperacion de diastasis recti: activacion del transverso del abdomen sin crear presion abdominal.",
+      fr: "Exercices doux specialement conçus pour la recuperation du diastasis recti: activation du transverse de l'abdomen sans creer de pression abdominale."
+    },
+    duration: "10 min",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop&q=80"
+  },
+
+  // --- REFORMER-INSPIRED ---
+  {
+    id: 78,
+    name: { en: "Elephant (Mat Adaptation)", es: "Elefante (Adaptacion de Mat)", fr: "Elephant (Adaptation au Sol)" },
+    category: "reformer",
+    difficulty: "intermediate",
+    muscles: { en: "Hamstrings & Core", es: "Isquiotibiales y Core", fr: "Ischio-jambiers et Core" },
+    targets: { en: ["Hamstring stretch", "Core engagement", "Shoulder stability"], es: ["Estiramiento de isquiotibiales", "Activacion del core", "Estabilidad de hombro"], fr: ["Etirement des ischio-jambiers", "Engagement du core", "Stabilite d'epaule"] },
+    description: {
+      en: "Reformer elephant adapted for mat: pike position with controlled hip movement, challenging hamstrings, core, and shoulder stability.",
+      es: "Elefante de reformer adaptado para mat: posicion de pike con movimiento controlado de cadera, desafiando isquiotibiales, core y estabilidad de hombro.",
+      fr: "Elephant de reformer adapte pour le sol: position de pike avec mouvement controle de la hanche, defiant ischio-jambiers, core et stabilite d'epaule."
+    },
+    duration: "6 min",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&q=80"
   }
 ];
 
