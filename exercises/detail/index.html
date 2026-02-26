@@ -16,6 +16,79 @@
   <link rel="stylesheet" href="../../css/styles.css">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
   <meta name="theme-color" content="#1a1a2e">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://pilatesforwomen.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Exercise Library",
+        "item": "https://pilatesforwomen.com/exercises/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Exercise Detail",
+        "item": "https://pilatesforwomen.com/exercises/detail/"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Perform Pilates Exercises",
+    "description": "Step-by-step form guide for Pilates exercises with breathing cues, modifications, and progression tips.",
+    "step": [
+      {"@type": "HowToStep", "name": "Starting Position", "text": "Find your neutral spine position on the mat with knees bent and feet flat."},
+      {"@type": "HowToStep", "name": "Breath Preparation", "text": "Inhale through the nose to expand the ribcage laterally. Exhale to engage the deep core."},
+      {"@type": "HowToStep", "name": "Execute Movement", "text": "Follow the specific movement pattern with controlled tempo and precise alignment."},
+      {"@type": "HowToStep", "name": "Return & Repeat", "text": "Return to starting position with control. Complete the prescribed repetitions maintaining form quality."}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "name": "Exercise Detail FAQ",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I know if my Pilates form is correct?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Correct form includes neutral spine alignment, engaged deep core, lateral thoracic breathing, and controlled tempo. Each exercise page provides specific form cues, common mistakes, and visual guidance to help you self-assess."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if an exercise feels too hard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every exercise includes beginner modifications that reduce the load while maintaining the movement pattern. Start with the modification, focus on form quality, and progress to the full expression when you can maintain control throughout."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many repetitions should I do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quality always outweighs quantity in Pilates. Most exercises recommend 6-10 repetitions with perfect form. If your form deteriorates, reduce the count. It is better to perform 4 precise repetitions than 10 sloppy ones."
+        }
+      }
+    ]
+  }
+  </script>
   <style>
     .page-hero{background:var(--color-primary);color:var(--color-white);padding:calc(var(--nav-height) + var(--space-4xl)) 0 var(--space-4xl);text-align:center;position:relative;overflow:hidden}
     .page-hero::before{content:'';position:absolute;top:-50%;right:-30%;width:800px;height:800px;background:radial-gradient(circle,rgba(201,169,110,0.08),transparent 70%);pointer-events:none}
@@ -173,6 +246,31 @@
             <button type="submit" class="btn btn--accent">Subscribe</button>
           </form>
         </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ Section (AEO) ==================== -->
+    <section class="faq-section" style="padding:4rem 2rem;max-width:900px;margin:0 auto;" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 style="font-family:'Playfair Display',serif;font-size:2rem;text-align:center;color:#e2c4ff;margin-bottom:2rem;">Frequently Asked Questions</h2>
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">How do I know if my Pilates form is correct?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Correct form includes neutral spine alignment, engaged deep core, lateral thoracic breathing, and controlled tempo. Each exercise page provides specific form cues, common mistakes, and visual guidance to help you self-assess.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">What if an exercise feels too hard?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Every exercise includes beginner modifications that reduce the load while maintaining the movement pattern. Start with the modification, focus on form quality, and progress to the full expression when you can maintain control throughout.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">How many repetitions should I do?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Quality always outweighs quantity in Pilates. Most exercises recommend 6-10 repetitions with perfect form. If your form deteriorates, reduce the count. It is better to perform 4 precise repetitions than 10 sloppy ones.</p>
+          </div>
+        </details>
       </div>
     </section>
   </main>
