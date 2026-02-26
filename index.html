@@ -35,12 +35,13 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "PilatesForWomen.com",
-    "url": "https://pilatesforwomen.com",
-    "description": "The definitive movement home for Black women. Form-first, cycle-aware, performance-capable Pilates. 78+ exercises, 5 program paths, and community.",
+    "alternateName": "Pilates For Women",
+    "url": "https://pilatesforwomen.com/",
+    "description": "The definitive movement home for Black women. Form-first, cycle-aware, performance-capable Pilates.",
     "inLanguage": ["en", "es", "fr"],
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://pilatesforwomen.com/?q={search_term_string}",
+      "target": "https://pilatesforwomen.com/exercises/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -86,40 +87,80 @@
         "name": "What is PilatesForWomen.com?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "PilatesForWomen.com is the definitive movement home for Black women, offering form-first, cycle-aware, performance-capable Pilates designed for strength, calm, and lifelong movement. Our library includes 78+ exercises across 14 categories with beginner to advanced levels."
+          "text": "PilatesForWomen.com is the definitive online Pilates platform designed specifically for Black women. It features 78+ exercises across 14 categories, 5 structured program paths, 8 sport-specific athletic programs, and cycle-aware training that adapts to your body's current phase — from menstrual reset to perimenopause strength."
         }
       },
       {
         "@type": "Question",
-        "name": "Is Pilates good for Black women?",
+        "name": "Is Pilates effective for Black women?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pilates is excellent for all women, and our platform specifically addresses the unique needs of Black women with culturally intelligent coaching, cycle-aware programming, life-stage adjustments, and athletic performance training. We focus on joint longevity, pelvic floor health, stress management, and hormonal support."
+          "text": "Absolutely. PilatesForWomen.com addresses the unique biomechanical, hormonal, and lifestyle factors that matter for Black women — including culturally intelligent coaching, cycle-aware programming, pelvic floor health, joint longevity, and stress management through movement."
         }
       },
       {
         "@type": "Question",
-        "name": "What are Movement Seasons in Pilates?",
+        "name": "What does cycle-aware Pilates mean?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Movement Seasons are our approach to training based on your body's current phase — not difficulty level. Seasons include High Energy Week, Low Energy Week, Menstrual Reset, Postpartum Return, Perimenopause Strength, and Stress Recovery Mode. Each season adjusts intensity, breath patterns, tempo, and load."
+          "text": "Cycle-aware Pilates adjusts training intensity, exercise selection, breathing patterns, and recovery based on your hormonal phase. During high-energy phases, you train with more power and speed. During low-energy phases or menstrual reset, sessions become gentler and more restorative."
         }
       },
       {
         "@type": "Question",
-        "name": "Can I do Pilates after pregnancy?",
+        "name": "How much does PilatesForWomen.com cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Our Postpartum Return program offers gentle core reconnection and pelvic floor integration designed specifically for the postpartum body. Always consult your healthcare provider before starting any exercise program after pregnancy."
+          "text": "PilatesForWomen.com offers three tiers: a Free Plan ($0/forever) with the form library, weekly drops, and movement season quiz; the Movement Vault ($19/month) with full access to all content and athlete plans; and Pathway Programs ($49-199 per program) with structured milestones and certification."
         }
       },
       {
         "@type": "Question",
-        "name": "How is athletic Pilates different from regular Pilates?",
+        "name": "Do I need equipment for online Pilates?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Athletic Pilates focuses on sport-specific performance: ankle stiffness for sprinters, hip drive for runners, deceleration control for court sports, rotational strength for tennis and golf, and shoulder integrity for all athletes. It builds durability and power alongside the core benefits of traditional Pilates."
+          "text": "Most sessions require only a mat. Some advanced sessions may incorporate resistance bands, small balls, or light weights (2-5 lbs), but equipment is always optional — bodyweight alternatives are provided for every exercise across all programs."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Can complete beginners use PilatesForWomen.com?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every exercise includes beginner modifications, and the Core & Pelvic Path program starts from absolute zero. The platform serves all levels from complete beginner to competitive athlete, with clear progression guidance at every stage."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PilatesForWomen.com",
+    "url": "https://pilatesforwomen.com/",
+    "description": "The definitive Pilates platform for Black women — form-first, cycle-aware, performance-capable movement.",
+    "foundingDate": "2025",
+    "sameAs": [],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "url": "https://pilatesforwomen.com/contact/"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free Plan",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Form library, weekly drops, movement season quiz"
+      },
+      {
+        "@type": "Offer",
+        "name": "Movement Vault",
+        "price": "19",
+        "priceCurrency": "USD",
+        "description": "Full access to all weekly drops, athlete plans, and form clinic"
       }
     ]
   }
@@ -144,6 +185,9 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/manifest.json">
 
   <!-- Theme Color -->
   <meta name="theme-color" content="#1a1a2e">
@@ -323,7 +367,7 @@
 
         <div class="drop-grid stagger-children">
           <!-- Card 1: Power Flow -->
-          <article class="drop-card fade-in" aria-label="Power Flow session">
+          <a href="/sessions/power-flow/" class="drop-card fade-in" aria-label="Power Flow session" style="text-decoration:none;color:inherit;">
             <div class="drop-card__image">
               <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&h=375&fit=crop&q=80" alt="Dynamic power Pilates flow session" width="600" height="375" loading="lazy">
               <span class="drop-card__badge">New Today</span>
@@ -339,10 +383,10 @@
                 <span class="drop-card__meta-item">🎯 Core & Glutes</span>
               </div>
             </div>
-          </article>
+          </a>
 
           <!-- Card 2: Calm Strength -->
-          <article class="drop-card fade-in" aria-label="Calm Strength session">
+          <a href="/sessions/calm-strength/" class="drop-card fade-in" aria-label="Calm Strength session" style="text-decoration:none;color:inherit;">
             <div class="drop-card__image">
               <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=375&fit=crop&q=80" alt="Calm and restorative Pilates session" width="600" height="375" loading="lazy">
               <span class="drop-card__badge">Popular</span>
@@ -358,10 +402,10 @@
                 <span class="drop-card__meta-item">🧘 Breath & Core</span>
               </div>
             </div>
-          </article>
+          </a>
 
           <!-- Card 3: Posture Reset -->
-          <article class="drop-card fade-in" aria-label="Posture Reset session">
+          <a href="/sessions/posture-reset/" class="drop-card fade-in" aria-label="Posture Reset session" style="text-decoration:none;color:inherit;">
             <div class="drop-card__image">
               <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=375&fit=crop&q=80" alt="Posture correction Pilates exercise" width="600" height="375" loading="lazy">
               <span class="drop-card__badge">Quick Hit</span>
@@ -377,10 +421,10 @@
                 <span class="drop-card__meta-item">🦴 Spine & Posture</span>
               </div>
             </div>
-          </article>
+          </a>
 
           <!-- Card 4: Athlete Core -->
-          <article class="drop-card fade-in" aria-label="Athlete Core Builder session">
+          <a href="/sessions/athlete-core/" class="drop-card fade-in" aria-label="Athlete Core Builder session" style="text-decoration:none;color:inherit;">
             <div class="drop-card__image">
               <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=375&fit=crop&q=80" alt="Athletic core building Pilates exercise" width="600" height="375" loading="lazy">
               <span class="drop-card__badge">Athlete</span>
@@ -396,10 +440,10 @@
                 <span class="drop-card__meta-item">💪 Full Core</span>
               </div>
             </div>
-          </article>
+          </a>
 
           <!-- Card 5: Hip & Glute -->
-          <article class="drop-card fade-in" aria-label="Hip and Glute Stability session">
+          <a href="/sessions/hip-glute/" class="drop-card fade-in" aria-label="Hip and Glute Stability session" style="text-decoration:none;color:inherit;">
             <div class="drop-card__image">
               <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&h=375&fit=crop&q=80" alt="Hip and glute stability Pilates work" width="600" height="375" loading="lazy">
               <span class="drop-card__badge">Essential</span>
@@ -415,10 +459,10 @@
                 <span class="drop-card__meta-item">🍑 Hips & Glutes</span>
               </div>
             </div>
-          </article>
+          </a>
 
           <!-- Card 6: Pelvic Floor -->
-          <article class="drop-card fade-in" aria-label="Pelvic Floor Smart Flow session">
+          <a href="/sessions/pelvic-floor/" class="drop-card fade-in" aria-label="Pelvic Floor Smart Flow session" style="text-decoration:none;color:inherit;">
             <div class="drop-card__image">
               <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=375&fit=crop&q=80" alt="Pelvic floor focused Pilates session" width="600" height="375" loading="lazy">
               <span class="drop-card__badge">Vital</span>
@@ -434,7 +478,7 @@
                 <span class="drop-card__meta-item">🔑 Pelvic Health</span>
               </div>
             </div>
-          </article>
+          </a>
         </div>
       </div>
     </section>
@@ -580,7 +624,7 @@
         </div>
 
         <div class="athletic__grid stagger-children">
-          <div class="sport-card fade-in">
+          <a href="/athletic/runners/" class="sport-card fade-in" style="text-decoration:none;color:inherit;">
             <img class="sport-card__image" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=530&fit=crop&q=80" alt="Runner in motion demonstrating powerful stride" width="400" height="530" loading="lazy">
             <div class="sport-card__overlay">
               <div class="sport-card__icon" aria-hidden="true">🏃‍♀️</div>
@@ -588,9 +632,9 @@
               <p class="sport-card__focus">Hip stability, IT band health, knee protection, ankle resilience</p>
             </div>
             <div class="sport-card__arrow" aria-hidden="true">→</div>
-          </div>
+          </a>
 
-          <div class="sport-card fade-in">
+          <a href="/athletic/basketball/" class="sport-card fade-in" style="text-decoration:none;color:inherit;">
             <img class="sport-card__image" src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400&h=530&fit=crop&q=80" alt="Basketball athlete demonstrating explosive power" width="400" height="530" loading="lazy">
             <div class="sport-card__overlay">
               <div class="sport-card__icon" aria-hidden="true">🏀</div>
@@ -598,9 +642,9 @@
               <p class="sport-card__focus">Deceleration control, ankle stiffness, rotational power, landing mechanics</p>
             </div>
             <div class="sport-card__arrow" aria-hidden="true">→</div>
-          </div>
+          </a>
 
-          <div class="sport-card fade-in">
+          <a href="/athletic/dancers/" class="sport-card fade-in" style="text-decoration:none;color:inherit;">
             <img class="sport-card__image" src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=400&h=530&fit=crop&q=80" alt="Dancer performing with grace and precision" width="400" height="530" loading="lazy">
             <div class="sport-card__overlay">
               <div class="sport-card__icon" aria-hidden="true">💃</div>
@@ -608,9 +652,9 @@
               <p class="sport-card__focus">Extension control, arabesque prep, port de bras, flexibility with strength</p>
             </div>
             <div class="sport-card__arrow" aria-hidden="true">→</div>
-          </div>
+          </a>
 
-          <div class="sport-card fade-in">
+          <a href="/athletic/tennis/" class="sport-card fade-in" style="text-decoration:none;color:inherit;">
             <img class="sport-card__image" src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=530&fit=crop&q=80" alt="Tennis player demonstrating rotational power" width="400" height="530" loading="lazy">
             <div class="sport-card__overlay">
               <div class="sport-card__icon" aria-hidden="true">🎾</div>
@@ -618,9 +662,9 @@
               <p class="sport-card__focus">Rotational strength, shoulder integrity, lateral agility, core anti-rotation</p>
             </div>
             <div class="sport-card__arrow" aria-hidden="true">→</div>
-          </div>
+          </a>
 
-          <div class="sport-card fade-in">
+          <a href="/athletic/lifters/" class="sport-card fade-in" style="text-decoration:none;color:inherit;">
             <img class="sport-card__image" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=530&fit=crop&q=80" alt="Athlete performing strength training" width="400" height="530" loading="lazy">
             <div class="sport-card__overlay">
               <div class="sport-card__icon" aria-hidden="true">🏋️‍♀️</div>
@@ -628,9 +672,9 @@
               <p class="sport-card__focus">Joint preservation, mobility, spinal integrity, shoulder stability</p>
             </div>
             <div class="sport-card__arrow" aria-hidden="true">→</div>
-          </div>
+          </a>
 
-          <div class="sport-card fade-in">
+          <a href="/athletic/sprinters/" class="sport-card fade-in" style="text-decoration:none;color:inherit;">
             <img class="sport-card__image" src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=530&fit=crop&q=80" alt="Track sprinter in starting position" width="400" height="530" loading="lazy">
             <div class="sport-card__overlay">
               <div class="sport-card__icon" aria-hidden="true">⚡</div>
@@ -638,9 +682,9 @@
               <p class="sport-card__focus">Hip drive, ankle stiffness, core anti-rotation, sprint mechanics</p>
             </div>
             <div class="sport-card__arrow" aria-hidden="true">→</div>
-          </div>
+          </a>
 
-          <div class="sport-card fade-in">
+          <a href="/athletic/soccer/" class="sport-card fade-in" style="text-decoration:none;color:inherit;">
             <img class="sport-card__image" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=530&fit=crop&q=80" alt="Soccer player demonstrating agility" width="400" height="530" loading="lazy">
             <div class="sport-card__overlay">
               <div class="sport-card__icon" aria-hidden="true">⚽</div>
@@ -648,9 +692,9 @@
               <p class="sport-card__focus">Hip stability, deceleration, ankle resilience, rotational power</p>
             </div>
             <div class="sport-card__arrow" aria-hidden="true">→</div>
-          </div>
+          </a>
 
-          <div class="sport-card fade-in">
+          <a href="/athletic/swimmers/" class="sport-card fade-in" style="text-decoration:none;color:inherit;">
             <img class="sport-card__image" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=530&fit=crop&q=80" alt="Swimmer demonstrating fluid movement" width="400" height="530" loading="lazy">
             <div class="sport-card__overlay">
               <div class="sport-card__icon" aria-hidden="true">🏊‍♀️</div>
@@ -658,7 +702,7 @@
               <p class="sport-card__focus">Shoulder integrity, thoracic mobility, core rotation, breath capacity</p>
             </div>
             <div class="sport-card__arrow" aria-hidden="true">→</div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
@@ -799,40 +843,40 @@
         </div>
 
         <div class="programs__grid stagger-children">
-          <div class="program-card fade-in">
+          <a href="/programs/power-path/" class="program-card fade-in" style="text-decoration:none;color:inherit;">
             <div class="program-card__icon">💪</div>
             <h3 class="program-card__name">Power Path</h3>
             <div class="program-card__duration">8–12 Weeks</div>
             <p class="program-card__desc">Build strength, control, posture, and joint integrity through progressive loading.</p>
-          </div>
+          </a>
 
-          <div class="program-card fade-in">
+          <a href="/programs/calm-strength/" class="program-card fade-in" style="text-decoration:none;color:inherit;">
             <div class="program-card__icon">🌊</div>
             <h3 class="program-card__name">Calm Strength</h3>
             <div class="program-card__duration">6–8 Weeks</div>
             <p class="program-card__desc">Breath-led sessions focused on nervous system downshift and calm power building.</p>
-          </div>
+          </a>
 
-          <div class="program-card fade-in">
+          <a href="/programs/athlete-path/" class="program-card fade-in" style="text-decoration:none;color:inherit;">
             <div class="program-card__icon">⚡</div>
             <h3 class="program-card__name">Athlete Path</h3>
             <div class="program-card__duration">8–12 Weeks</div>
             <p class="program-card__desc">Performance durability and speed support for competitive and recreational athletes.</p>
-          </div>
+          </a>
 
-          <div class="program-card fade-in">
+          <a href="/programs/core-pelvic/" class="program-card fade-in" style="text-decoration:none;color:inherit;">
             <div class="program-card__icon">🔑</div>
             <h3 class="program-card__name">Core & Pelvic</h3>
             <div class="program-card__duration">6–10 Weeks</div>
             <p class="program-card__desc">Safe core rebuilding and pelvic floor integration. Foundation-first approach.</p>
-          </div>
+          </a>
 
-          <div class="program-card fade-in">
+          <a href="/programs/longevity/" class="program-card fade-in" style="text-decoration:none;color:inherit;">
             <div class="program-card__icon">💎</div>
             <h3 class="program-card__name">Longevity 35+</h3>
             <div class="program-card__duration">Ongoing</div>
             <p class="program-card__desc">Joint preservation, bone density support, and hormone-aware training for lifelong movement.</p>
-          </div>
+          </a>
         </div>
       </div>
     </section>
@@ -1012,6 +1056,49 @@
             <button type="submit" class="btn btn--accent">Subscribe</button>
           </form>
         </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ Section (AEO) ==================== -->
+    <section class="faq-section" style="padding:4rem 2rem;max-width:900px;margin:0 auto;" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 style="font-family:'Playfair Display',serif;font-size:2rem;text-align:center;color:#e2c4ff;margin-bottom:2rem;">Frequently Asked Questions</h2>
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">What is PilatesForWomen.com?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">PilatesForWomen.com is the definitive online Pilates platform designed specifically for Black women. It features 78+ exercises across 14 categories, 5 structured program paths, 8 sport-specific athletic programs, and cycle-aware training that adapts to your body's current phase — from menstrual reset to perimenopause strength.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Is Pilates effective for Black women?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Absolutely. PilatesForWomen.com addresses the unique biomechanical, hormonal, and lifestyle factors that matter for Black women — including culturally intelligent coaching, cycle-aware programming, pelvic floor health, joint longevity, and stress management through movement.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">What does cycle-aware Pilates mean?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Cycle-aware Pilates adjusts training intensity, exercise selection, breathing patterns, and recovery based on your hormonal phase. During high-energy phases, you train with more power and speed. During low-energy phases or menstrual reset, sessions become gentler and more restorative.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">How much does PilatesForWomen.com cost?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">PilatesForWomen.com offers three tiers: a Free Plan ($0/forever) with the form library, weekly drops, and movement season quiz; the Movement Vault ($19/month) with full access to all content and athlete plans; and Pathway Programs ($49-199 per program) with structured milestones and certification.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Do I need equipment for online Pilates?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Most sessions require only a mat. Some advanced sessions may incorporate resistance bands, small balls, or light weights (2-5 lbs), but equipment is always optional — bodyweight alternatives are provided for every exercise across all programs.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Can complete beginners use PilatesForWomen.com?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Yes. Every exercise includes beginner modifications, and the Core & Pelvic Path program starts from absolute zero. The platform serves all levels from complete beginner to competitive athlete, with clear progression guidance at every stage.</p>
+          </div>
+        </details>
       </div>
     </section>
   </main>

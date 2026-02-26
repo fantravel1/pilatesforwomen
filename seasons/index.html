@@ -63,14 +63,34 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://pilatesforwomen.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Movement Seasons",
+        "item": "https://pilatesforwomen.com/seasons/"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What are Movement Seasons?",
+        "name": "What are Movement Seasons in Pilates?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Movement Seasons are our phase-based approach to Pilates training designed for Black women. Instead of training by difficulty level alone, your sessions adapt to your body's current season — whether that's a high energy week, low energy week, menstrual phase, postpartum recovery, perimenopause, or a period of high stress. Intensity, breath patterns, tempo, and load all adjust accordingly."
+          "text": "Movement Seasons are training phases based on your body's current state — not difficulty level. Six seasons (High Energy, Low Energy, Menstrual Reset, Postpartum Return, Perimenopause Strength, Stress Recovery) adjust intensity, tempo, and exercise selection to match your body's needs."
         }
       },
       {
@@ -78,15 +98,23 @@
         "name": "How do I know which Movement Season I'm in?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Take our interactive Movement Season Quiz. Answer three simple questions about your current energy, needs, and life phase, and we'll match you with the right season instantly. Your season can change week to week — that's the whole point."
+          "text": "Take the free Movement Season quiz on PilatesForWomen.com. It assesses your current energy level, hormonal phase, stress load, and recovery capacity to recommend the right training intensity and session types for right now."
         }
       },
       {
         "@type": "Question",
-        "name": "Can I switch between Movement Seasons?",
+        "name": "Do Movement Seasons change every week?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Absolutely. Movement Seasons are fluid by design. You might be in High Energy Week one week and Stress Recovery Mode the next. The system adapts to you, not the other way around. Listen to your body and choose the season that matches where you are right now."
+          "text": "Seasons can shift weekly, monthly, or stay stable for longer periods. They follow your body's natural rhythms — menstrual cycle phases, life transitions, stress levels, and seasonal energy changes. The key is listening to your body and adjusting accordingly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can men use Movement Seasons?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While designed for women's hormonal cycles and life stages, the underlying principle — matching training intensity to current physical and mental state — benefits everyone. The stress recovery and energy-based seasons are universally applicable."
         }
       }
     ]
@@ -724,6 +752,37 @@
             <button type="submit" class="btn btn--accent">Subscribe</button>
           </form>
         </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ Section (AEO) ==================== -->
+    <section class="faq-section" style="padding:4rem 2rem;max-width:900px;margin:0 auto;" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 style="font-family:'Playfair Display',serif;font-size:2rem;text-align:center;color:#e2c4ff;margin-bottom:2rem;">Frequently Asked Questions</h2>
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">What are Movement Seasons in Pilates?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Movement Seasons are training phases based on your body's current state — not difficulty level. Six seasons (High Energy, Low Energy, Menstrual Reset, Postpartum Return, Perimenopause Strength, Stress Recovery) adjust intensity, tempo, and exercise selection to match your body's needs.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">How do I know which Movement Season I'm in?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Take the free Movement Season quiz on PilatesForWomen.com. It assesses your current energy level, hormonal phase, stress load, and recovery capacity to recommend the right training intensity and session types for right now.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Do Movement Seasons change every week?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Seasons can shift weekly, monthly, or stay stable for longer periods. They follow your body's natural rhythms — menstrual cycle phases, life transitions, stress levels, and seasonal energy changes. The key is listening to your body and adjusting accordingly.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Can men use Movement Seasons?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">While designed for women's hormonal cycles and life stages, the underlying principle — matching training intensity to current physical and mental state — benefits everyone. The stress recovery and energy-based seasons are universally applicable.</p>
+          </div>
+        </details>
       </div>
     </section>
   </main>

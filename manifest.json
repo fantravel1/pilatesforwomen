@@ -1,0 +1,44 @@
+{
+  "name": "PilatesForWomen.com",
+  "short_name": "PFW",
+  "description": "The definitive movement home for Black women. Form-first, cycle-aware, performance-capable Pilates designed for strength, calm, and lifelong movement.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "scope": "/",
+  "categories": ["fitness", "health", "lifestyle", "sports"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Exercise Library",
+      "short_name": "Exercises",
+      "description": "Browse 78+ Pilates exercises across 14 categories",
+      "url": "/exercises/",
+      "icons": [{"src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>", "sizes": "any"}]
+    },
+    {
+      "name": "Programs",
+      "short_name": "Programs",
+      "description": "5 structured Pilates program paths",
+      "url": "/programs/",
+      "icons": [{"src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>", "sizes": "any"}]
+    },
+    {
+      "name": "Athletic Mode",
+      "short_name": "Athletic",
+      "description": "Sport-specific Pilates for 8 disciplines",
+      "url": "/athletic/",
+      "icons": [{"src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>", "sizes": "any"}]
+    }
+  ]
+}

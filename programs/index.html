@@ -31,6 +31,66 @@
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://pilatesforwomen.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Programs",
+        "item": "https://pilatesforwomen.com/programs/"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How many Pilates programs does PilatesForWomen.com offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Five structured program paths: Power Path (8-12 weeks, strength and posture), Calm Strength (6-8 weeks, breath-led training), Athlete Path (8-12 weeks, sport performance), Core & Pelvic (6-10 weeks, safe rebuilding), and Longevity 35+ (ongoing, joint and bone health)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which program should I start with?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For complete beginners, start with Core & Pelvic Path. For stress management, choose Calm Strength. For visible strength gains, choose Power Path. For athletic performance, choose Athlete Path. For women 35+, the Longevity Path addresses age-specific needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I do multiple programs at once?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We recommend completing one program before starting another to build a solid foundation. However, Calm Strength pairs well as a recovery complement to Power Path or Athlete Path if practiced on alternate days."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens after I finish a program?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each program concludes with a maintenance protocol and transition guidance. You can repeat the program at a higher intensity, progress to a more advanced path, or shift to the weekly session drops for ongoing maintenance."
+        }
+      }
+    ]
+  }
+  </script>
   <link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/programs/">
   <link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/programs/">
   <link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/programs/">
@@ -224,7 +284,7 @@
                 <div class="program-section__feature">Form checkpoints every 2 weeks to ensure quality</div>
                 <div class="program-section__feature">Posture integration sessions connecting everything together</div>
               </div>
-              <a href="#pricing" class="btn btn--accent">Start Power Path</a>
+              <a href="/programs/power-path/" class="btn btn--accent">Start Power Path</a>
             </div>
           </div>
         </section>
@@ -266,7 +326,7 @@
                 <div class="program-section__feature">Progressive calm strength building without cortisol spike</div>
                 <div class="program-section__feature">Sleep quality improvement through evening wind-down sessions</div>
               </div>
-              <a href="#pricing" class="btn btn--accent">Start Calm Strength</a>
+              <a href="/programs/calm-strength/" class="btn btn--accent">Start Calm Strength</a>
             </div>
           </div>
         </section>
@@ -308,7 +368,7 @@
                 <div class="program-section__feature">Sport-specific warm-up and cool-down sequences</div>
                 <div class="program-section__feature">Anti-rotation and single-leg stability progressions</div>
               </div>
-              <a href="#pricing" class="btn btn--accent">Start Athlete Path</a>
+              <a href="/programs/athlete-path/" class="btn btn--accent">Start Athlete Path</a>
             </div>
           </div>
         </section>
@@ -350,7 +410,7 @@
                 <div class="program-section__feature">Progressive loading with medical clearance guidelines</div>
                 <div class="program-section__feature">Integration with daily activities and functional movement</div>
               </div>
-              <a href="#pricing" class="btn btn--accent">Start Core & Pelvic</a>
+              <a href="/programs/core-pelvic/" class="btn btn--accent">Start Core & Pelvic</a>
             </div>
           </div>
         </section>
@@ -392,7 +452,7 @@
                 <div class="program-section__feature">Energy regulation through movement timing strategies</div>
                 <div class="program-section__feature">Quarterly movement assessments tracking progress over time</div>
               </div>
-              <a href="#pricing" class="btn btn--accent">Start Longevity Path</a>
+              <a href="/programs/longevity/" class="btn btn--accent">Start Longevity Path</a>
             </div>
           </div>
         </section>
@@ -500,6 +560,37 @@
             <button type="submit" class="btn btn--accent">Subscribe</button>
           </form>
         </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ Section (AEO) ==================== -->
+    <section class="faq-section" style="padding:4rem 2rem;max-width:900px;margin:0 auto;" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 style="font-family:'Playfair Display',serif;font-size:2rem;text-align:center;color:#e2c4ff;margin-bottom:2rem;">Frequently Asked Questions</h2>
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">How many Pilates programs does PilatesForWomen.com offer?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Five structured program paths: Power Path (8-12 weeks, strength and posture), Calm Strength (6-8 weeks, breath-led training), Athlete Path (8-12 weeks, sport performance), Core & Pelvic (6-10 weeks, safe rebuilding), and Longevity 35+ (ongoing, joint and bone health).</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Which program should I start with?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">For complete beginners, start with Core & Pelvic Path. For stress management, choose Calm Strength. For visible strength gains, choose Power Path. For athletic performance, choose Athlete Path. For women 35+, the Longevity Path addresses age-specific needs.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Can I do multiple programs at once?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">We recommend completing one program before starting another to build a solid foundation. However, Calm Strength pairs well as a recovery complement to Power Path or Athlete Path if practiced on alternate days.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">What happens after I finish a program?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Each program concludes with a maintenance protocol and transition guidance. You can repeat the program at a higher intensity, progress to a more advanced path, or shift to the weekly session drops for ongoing maintenance.</p>
+          </div>
+        </details>
       </div>
     </section>
   </main>

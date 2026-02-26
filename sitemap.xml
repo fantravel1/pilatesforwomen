@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ============================================
+       HOMEPAGE (EN / ES / FR)
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pilatesforwomen.com/"/>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=1200&amp;h=630&amp;fit=crop&amp;q=80</image:loc>
+      <image:title>PilatesForWomen.com — The Movement Home for Black Women</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/"/>
+  </url>
+
+  <!-- ============================================
+       EXERCISE LIBRARY
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/exercises/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/exercises/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/exercises/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/exercises/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/exercises/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/exercises/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/exercises/detail/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================================
+       MOVEMENT SEASONS
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/seasons/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/seasons/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/seasons/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/seasons/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/seasons/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/seasons/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================================
+       ATHLETIC MODE — Overview + 8 Sports
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/athletic/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/athletic/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/athletic/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/athletic/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/athletic/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/runners/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/basketball/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/dancers/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/tennis/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/lifters/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/sprinters/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/soccer/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/athletic/swimmers/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================
+       PROGRAMS — Overview + 5 Paths
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/programs/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/programs/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/programs/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/programs/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/programs/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/programs/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/programs/power-path/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/programs/calm-strength/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/programs/athlete-path/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/programs/core-pelvic/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/programs/longevity/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================
+       SESSIONS — 6 Workout Sessions
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/sessions/power-flow/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/sessions/calm-strength/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/sessions/posture-reset/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/sessions/athlete-core/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/sessions/hip-glute/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/sessions/pelvic-floor/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================================
+       ABOUT
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/about/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/about/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/about/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/about/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ============================================
+       BLOG / JOURNAL
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/blog/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/blog/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/blog/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/blog/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================================
+       TESTIMONIALS
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/testimonials/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/testimonials/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/testimonials/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/testimonials/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ============================================
+       FAQ
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/faq/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/faq/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/faq/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/faq/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ============================================
+       CONTACT
+       ============================================ -->
+  <url>
+    <loc>https://pilatesforwomen.com/contact/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/contact/"/>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/es/contact/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://pilatesforwomen.com/fr/contact/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>

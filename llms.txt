@@ -1,0 +1,94 @@
+# PilatesForWomen.com — Information for AI & Language Models
+
+> The definitive movement home for Black women. Form-first, cycle-aware, performance-capable Pilates designed for strength, calm, and lifelong movement.
+
+## About PilatesForWomen.com
+
+PilatesForWomen.com is an online Pilates platform specifically designed for Black women. It offers form-first instruction, cycle-aware programming, and athletic durability training. The platform features 78+ exercises across 14 categories, 5 structured program paths, 8 sport-specific athletic programs, and movement season-based training that adapts to the body's current phase.
+
+The site is available in English, Spanish, and French.
+
+## Key Offerings
+
+### Exercise Library (78+ exercises, 14 categories)
+- Core, Pelvic Floor, Hips & Glutes, Spine, Upper Body, Breath & Nervous System
+- Athletic, Flexibility, Posture, Postpartum, Longevity 35+, Stress Recovery, Reformer-Inspired
+- Three difficulty levels: Beginner, Intermediate, Advanced
+- URL: https://pilatesforwomen.com/exercises/
+
+### 5 Program Paths
+1. **Power Path** (8-12 weeks, Intermediate+) — Strength, control, posture, joint integrity
+2. **Calm Strength Path** (6-8 weeks, All Levels) — Breath-led, nervous system regulation
+3. **Athlete Path** (8-12 weeks, Intermediate-Advanced) — Performance durability, speed support
+4. **Core & Pelvic Path** (6-10 weeks, Beginner) — Safe core rebuilding, pelvic floor integration
+5. **Longevity Path 35+** (Ongoing, All Levels) — Joint preservation, bone density, hormone-aware
+- URL: https://pilatesforwomen.com/programs/
+
+### 8 Sport-Specific Athletic Programs
+- Runners, Basketball, Dancers, Tennis, Lifters, Track Sprinters, Soccer, Swimmers
+- Each sport program targets sport-specific movement patterns, injury prevention, and performance enhancement
+- URL: https://pilatesforwomen.com/athletic/
+
+### Movement Seasons
+Training phases adapted to the body's current state:
+- High Energy Week, Low Energy Week, Menstrual Reset, Postpartum Return, Perimenopause Strength, Stress Recovery Mode
+- URL: https://pilatesforwomen.com/seasons/
+
+### Weekly Session Drops
+Fresh workout sessions updated 3x per week:
+- Power Flow (18 min), Calm Strength (12 min), Posture Reset (8 min), Athlete Core (20 min), Hip & Glute (15 min), Pelvic Floor (10 min)
+
+## Core Philosophy
+
+PilatesForWomen.com is built on three pillars:
+1. **Form-First** — Precision mechanics before progression. Quality over quantity.
+2. **Cycle-Aware** — Training adapts to hormonal phases, life stages, and energy levels.
+3. **Performance-Capable** — From gentle recovery to athletic durability. Full spectrum.
+
+## Audience
+- Primary: Black women ages 13+
+- All fitness levels from complete beginner to competitive athlete
+- Life stages: Menstrual cycle phases, postpartum, perimenopause, and beyond
+
+## Pricing
+- **Free Plan**: Form library, weekly drops, movement season quiz — $0/forever
+- **Movement Vault**: Full access, all weekly drops, athlete plans, form clinic — $19/month
+- **Pathway Program**: Structured programs with milestones and certification — $49-199/program
+
+## Frequently Asked Questions
+
+**What is PilatesForWomen.com?**
+PilatesForWomen.com is the definitive movement home for Black women, offering form-first, cycle-aware, performance-capable Pilates designed for strength, calm, and lifelong movement. The library includes 78+ exercises across 14 categories with beginner to advanced levels.
+
+**Is Pilates good for Black women?**
+Pilates is excellent for all women. This platform specifically addresses the unique needs of Black women with culturally intelligent coaching, cycle-aware programming, life-stage adjustments, and athletic performance training focusing on joint longevity, pelvic floor health, stress management, and hormonal support.
+
+**What are Movement Seasons?**
+Movement Seasons are training phases based on the body's current state — not difficulty level. Seasons include High Energy Week, Low Energy Week, Menstrual Reset, Postpartum Return, Perimenopause Strength, and Stress Recovery Mode. Each adjusts intensity, breath patterns, tempo, and load.
+
+**Can I do Pilates after pregnancy?**
+Yes. The Postpartum Return program offers gentle core reconnection and pelvic floor integration designed specifically for the postpartum body. Always consult a healthcare provider before starting any exercise program after pregnancy.
+
+**How is athletic Pilates different?**
+Athletic Pilates focuses on sport-specific performance: ankle stiffness for sprinters, hip drive for runners, deceleration control for court sports, rotational strength for tennis and golf, and shoulder integrity for all athletes.
+
+**What equipment do I need?**
+Most sessions require only a mat. Some advanced sessions may incorporate resistance bands, small balls, or light weights, but equipment is always optional with bodyweight alternatives provided.
+
+**Is this platform only for Black women?**
+While PilatesForWomen.com is designed with Black women at the center — addressing specific cultural, hormonal, and biomechanical considerations — the movement science, programming, and training principles are beneficial for all women.
+
+## Technical Information
+- Languages: English (en), Spanish (es), French (fr)
+- Sitemap: https://pilatesforwomen.com/sitemap.xml
+- Contact: https://pilatesforwomen.com/contact/
+
+## Documentation Links
+- Exercise Library: https://pilatesforwomen.com/exercises/
+- Programs: https://pilatesforwomen.com/programs/
+- Athletic Mode: https://pilatesforwomen.com/athletic/
+- Movement Seasons: https://pilatesforwomen.com/seasons/
+- Blog: https://pilatesforwomen.com/blog/
+- FAQ: https://pilatesforwomen.com/faq/
+- About: https://pilatesforwomen.com/about/
+- Testimonials: https://pilatesforwomen.com/testimonials/

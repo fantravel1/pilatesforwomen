@@ -236,7 +236,8 @@
         var diffLabel = DIFFICULTY_LABELS[LANG] ? DIFFICULTY_LABELS[LANG][ex.difficulty] : ex.difficulty;
         var targets = (ex.targets[LANG] || ex.targets.en);
 
-        return '<div class="exercise-card fade-in visible" data-id="' + ex.id + '">' +
+        var detailUrl = '/exercises/detail/?id=' + ex.id;
+        return '<a href="' + detailUrl + '" class="exercise-card fade-in visible" data-id="' + ex.id + '" style="text-decoration:none;color:inherit;display:block;">' +
           '<div class="exercise-card__header">' +
             '<img src="' + ex.image + '" alt="' + (ex.name[LANG] || ex.name.en) + '" loading="lazy" width="600" height="400">' +
             '<span class="exercise-card__difficulty ' + diffClass + '">' + diffLabel + '</span>' +
@@ -248,7 +249,7 @@
               targets.map(function(t) { return '<span class="exercise-card__target">' + t + '</span>'; }).join('') +
             '</div>' +
           '</div>' +
-        '</div>';
+        '</a>';
       }).join('');
 
       // Show/hide load more
