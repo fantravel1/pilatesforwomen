@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Exercise Detail — PilatesForWomen.com</title>
+  <meta name="description" content="Detailed exercise guide with form cues, target muscles, and difficulty level. Part of the PilatesForWomen.com exercise library for Black women.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pilatesforwomen.com/exercises/detail/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Exercise Detail | PilatesForWomen.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <meta name="theme-color" content="#1a1a2e">
+  <style>
+    .page-hero{background:var(--color-primary);color:var(--color-white);padding:calc(var(--nav-height) + var(--space-4xl)) 0 var(--space-4xl);text-align:center;position:relative;overflow:hidden}
+    .page-hero::before{content:'';position:absolute;top:-50%;right:-30%;width:800px;height:800px;background:radial-gradient(circle,rgba(201,169,110,0.08),transparent 70%);pointer-events:none}
+    .page-hero__breadcrumb{font-size:.82rem;color:rgba(255,255,255,0.4);margin-bottom:var(--space-xl);position:relative}
+    .page-hero__breadcrumb a{color:rgba(255,255,255,0.5);transition:color var(--transition-base)}
+    .page-hero__breadcrumb a:hover{color:var(--color-accent)}
+    .page-hero__title{font-size:clamp(2.25rem,5vw,3.5rem);margin-bottom:var(--space-md);position:relative}
+    .page-hero__desc{font-family:var(--font-accent);font-size:1.2rem;color:rgba(255,255,255,0.65);font-style:italic;max-width:600px;margin:0 auto;position:relative}
+
+    .exercise-full{padding:var(--space-5xl) 0}
+    .exercise-layout{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4xl);align-items:start}
+    .exercise-image{border-radius:var(--radius-2xl);overflow:hidden;aspect-ratio:3/2;box-shadow:var(--shadow-xl);position:sticky;top:calc(var(--nav-height) + var(--space-xl))}
+    .exercise-image img{width:100%;height:100%;object-fit:cover}
+    .exercise-info__badge{display:inline-block;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;padding:6px 16px;border-radius:var(--radius-full);margin-bottom:var(--space-lg)}
+    .exercise-info__badge--beginner{background:rgba(124,144,130,0.15);color:#7c9082}
+    .exercise-info__badge--intermediate{background:rgba(201,169,110,0.15);color:#c9a96e}
+    .exercise-info__badge--advanced{background:rgba(183,110,121,0.15);color:#b76e79}
+    .exercise-info__title{font-family:var(--font-heading);font-size:clamp(1.75rem,3vw,2.5rem);font-weight:800;color:var(--color-primary);margin-bottom:var(--space-lg)}
+    .exercise-info__desc{font-size:1.05rem;color:var(--color-text-light);line-height:1.85;margin-bottom:var(--space-2xl)}
+
+    .exercise-meta{display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--space-md);margin-bottom:var(--space-2xl)}
+    .exercise-meta__item{background:var(--color-cream);border-radius:var(--radius-lg);padding:var(--space-lg);text-align:center}
+    .exercise-meta__label{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--color-text-muted);margin-bottom:4px}
+    .exercise-meta__value{font-family:var(--font-heading);font-size:1.1rem;font-weight:700;color:var(--color-primary)}
+
+    .exercise-targets{margin-bottom:var(--space-2xl)}
+    .exercise-targets__title{font-family:var(--font-heading);font-size:1.2rem;font-weight:700;color:var(--color-primary);margin-bottom:var(--space-md)}
+    .exercise-targets__list{display:flex;flex-wrap:wrap;gap:var(--space-sm)}
+    .exercise-targets__tag{padding:8px 18px;border-radius:var(--radius-full);background:var(--color-cream);font-size:.88rem;color:var(--color-text);border:1px solid var(--color-light-gray)}
+
+    .exercise-cues{margin-bottom:var(--space-2xl)}
+    .exercise-cues__title{font-family:var(--font-heading);font-size:1.2rem;font-weight:700;color:var(--color-primary);margin-bottom:var(--space-md)}
+    .exercise-cues__list{list-style:none;padding:0;margin:0}
+    .exercise-cues__item{display:flex;align-items:flex-start;gap:var(--space-md);padding:var(--space-md) 0;border-bottom:1px solid var(--color-light-gray)}
+    .exercise-cues__item:last-child{border-bottom:none}
+    .exercise-cues__num{width:32px;height:32px;border-radius:50%;background:var(--color-primary);color:var(--color-white);display:flex;align-items:center;justify-content:center;font-family:var(--font-heading);font-size:.8rem;font-weight:700;flex-shrink:0}
+    .exercise-cues__text{flex:1;font-size:.95rem;color:var(--color-text-light);line-height:1.6}
+
+    .related-exercises{background:var(--color-cream);padding:var(--space-4xl) 0}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:var(--space-xl);margin-top:var(--space-2xl)}
+    .related-card{background:var(--color-white);border-radius:var(--radius-xl);overflow:hidden;box-shadow:var(--shadow-md);cursor:pointer;transition:transform var(--transition-base),box-shadow var(--transition-base)}
+    .related-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-xl)}
+    .related-card__image{aspect-ratio:3/2;overflow:hidden}
+    .related-card__image img{width:100%;height:100%;object-fit:cover}
+    .related-card__body{padding:var(--space-lg)}
+    .related-card__category{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--color-accent-dark);margin-bottom:4px}
+    .related-card__name{font-family:var(--font-heading);font-size:1rem;font-weight:700;color:var(--color-primary);margin-bottom:4px}
+    .related-card__difficulty{font-size:.8rem;color:var(--color-text-muted)}
+
+    .exercise-cta{background:var(--color-primary);color:var(--color-white);padding:var(--space-4xl) 0;text-align:center}
+    .exercise-cta__title{font-family:var(--font-heading);font-size:clamp(1.75rem,4vw,2.5rem);margin-bottom:var(--space-md)}
+    .exercise-cta__desc{font-family:var(--font-accent);font-size:1.15rem;color:rgba(255,255,255,0.6);font-style:italic;margin-bottom:var(--space-2xl);max-width:550px;margin-left:auto;margin-right:auto}
+    .exercise-cta__buttons{display:flex;gap:var(--space-md);justify-content:center;flex-wrap:wrap}
+
+    .not-found{padding:var(--space-5xl) 0;text-align:center}
+    .not-found__icon{font-size:4rem;margin-bottom:var(--space-lg)}
+    .not-found__title{font-family:var(--font-heading);font-size:2rem;color:var(--color-primary);margin-bottom:var(--space-md)}
+    .not-found__desc{font-size:1.05rem;color:var(--color-text-light);margin-bottom:var(--space-2xl)}
+
+    @media(max-width:768px){
+      .exercise-layout{grid-template-columns:1fr}
+      .exercise-image{position:static}
+      .exercise-meta{grid-template-columns:1fr}
+      .related-grid{grid-template-columns:1fr 1fr}
+    }
+    @media(max-width:480px){
+      .related-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content sr-only">Skip to main content</a>
+
+  <nav class="nav nav--scrolled" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo"><span class="nav__logo-icon">✦</span> PilatesForWomen</a>
+      <div class="nav__links">
+        <a href="/" class="nav__link">Home</a>
+        <a href="/exercises/" class="nav__link nav__link--active">Exercise Library</a>
+        <a href="/seasons/" class="nav__link">Seasons</a>
+        <a href="/athletic/" class="nav__link">Athletic</a>
+        <a href="/programs/" class="nav__link">Programs</a>
+        <a href="/blog/" class="nav__link">Blog</a>
+        <a href="/about/" class="nav__link">About</a>
+      </div>
+      <div class="nav__actions">
+        <div class="lang-switcher">
+          <a href="/exercises/detail/" class="lang-switcher__btn lang-switcher__btn--active">EN</a>
+          <a href="/es/" class="lang-switcher__btn">ES</a>
+          <a href="/fr/" class="lang-switcher__btn">FR</a>
+        </div>
+        <a href="/programs/" class="btn btn--accent btn--sm">Start Training</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="nav__mobile">
+      <a href="/" class="nav__mobile-link">Home</a>
+      <a href="/exercises/" class="nav__mobile-link">Exercise Library</a>
+      <a href="/seasons/" class="nav__mobile-link">Movement Seasons</a>
+      <a href="/athletic/" class="nav__mobile-link">Athletic Mode</a>
+      <a href="/programs/" class="nav__mobile-link">Programs</a>
+      <a href="/blog/" class="nav__mobile-link">Blog</a>
+      <a href="/about/" class="nav__mobile-link">About</a>
+    </div>
+  </nav>
+
+  <header class="page-hero" id="main-content">
+    <div class="container">
+      <div class="page-hero__breadcrumb">
+        <a href="/">Home</a> / <a href="/exercises/">Exercise Library</a> / <span id="breadcrumb-name">Exercise</span>
+      </div>
+      <h1 class="page-hero__title" id="hero-title">Exercise Detail</h1>
+      <p class="page-hero__desc" id="hero-desc">Master this movement with form-first precision.</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Dynamic Content Area -->
+    <div id="exercise-content">
+      <!-- Populated by JavaScript -->
+    </div>
+
+    <!-- Related Exercises -->
+    <section class="related-exercises" id="related-section" style="display:none;">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Keep Moving</span>
+          <h2 class="section-title">Related Exercises</h2>
+          <p class="section-subtitle">More movements in this category to build your practice.</p>
+        </div>
+        <div class="related-grid" id="related-grid"></div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="exercise-cta">
+      <div class="container">
+        <h2 class="exercise-cta__title">Ready to Build Your Practice?</h2>
+        <p class="exercise-cta__desc">Explore the full exercise library or start a structured program path designed for your goals.</p>
+        <div class="exercise-cta__buttons">
+          <a href="/exercises/" class="btn btn--accent btn--lg">Browse All Exercises</a>
+          <a href="/programs/" class="btn btn--outline-light btn--lg">View Programs</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section-padding">
+      <div class="container">
+        <div class="newsletter__inner">
+          <h2 class="newsletter__title">Stay in the Flow</h2>
+          <p class="newsletter__desc">Weekly session drops, form tips, and exercise spotlights straight to your inbox.</p>
+          <form class="newsletter__form" aria-label="Newsletter signup">
+            <input type="email" class="newsletter__input" placeholder="Enter your email address" aria-label="Email address" required>
+            <button type="submit" class="btn btn--accent">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">✦ PilatesForWomen</div>
+          <p class="footer__tagline">The definitive movement home for Black women. Form-first, cycle-aware, performance-capable Pilates.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="footer__social-link" aria-label="YouTube">YT</a>
+            <a href="#" class="footer__social-link" aria-label="TikTok">TK</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Pages</h4>
+          <div class="footer__links">
+            <a href="/" class="footer__link">Home</a>
+            <a href="/exercises/" class="footer__link">Exercise Library</a>
+            <a href="/seasons/" class="footer__link">Movement Seasons</a>
+            <a href="/athletic/" class="footer__link">Athletic Mode</a>
+            <a href="/programs/" class="footer__link">Programs</a>
+            <a href="/blog/" class="footer__link">Blog</a>
+            <a href="/testimonials/" class="footer__link">Testimonials</a>
+            <a href="/about/" class="footer__link">About</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Languages</h4>
+          <div class="footer__links">
+            <a href="/exercises/detail/" class="footer__link">English</a>
+            <a href="/es/" class="footer__link">Español</a>
+            <a href="/fr/" class="footer__link">Français</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Support</h4>
+          <div class="footer__links">
+            <a href="/faq/" class="footer__link">FAQ</a>
+            <a href="/contact/" class="footer__link">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 PilatesForWomen.com. All rights reserved.</p>
+        <div class="footer__legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Disclaimer</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="../../js/database.js"></script>
+  <script src="../../js/main.js"></script>
+  <script>
+  (function() {
+    'use strict';
+
+    var LANG = (function() {
+      var lang = document.documentElement.lang;
+      if (lang === 'es') return 'es';
+      if (lang === 'fr') return 'fr';
+      return 'en';
+    })();
+
+    var CATEGORY_LABELS = {
+      core: 'Core', pelvic: 'Pelvic Floor', hips: 'Hips & Glutes', spine: 'Spine',
+      shoulders: 'Upper Body', breath: 'Breath & NS', athletic: 'Athletic',
+      flexibility: 'Flexibility', posture: 'Posture', postpartum: 'Postpartum',
+      longevity: 'Longevity 35+', stress: 'Stress Recovery', reformer: 'Reformer-Inspired'
+    };
+
+    var FORM_CUES = {
+      core: [
+        'Engage your deep abdominals by drawing your navel toward your spine before initiating movement.',
+        'Maintain a neutral pelvis throughout — avoid tucking or arching excessively.',
+        'Breathe laterally into your ribcage, expanding sideways rather than lifting your chest.',
+        'Keep your shoulders anchored away from your ears with shoulder blades flat on the mat.',
+        'Move with control and intention — speed is never the goal in Pilates.'
+      ],
+      pelvic: [
+        'Begin with a gentle pelvic floor lift — imagine stopping the flow of urine, then release.',
+        'Coordinate your pelvic floor engagement with your exhale for natural activation.',
+        'Maintain a neutral spine — avoid gripping or over-engaging the glutes.',
+        'Focus on the release phase as much as the contraction — both are essential.',
+        'If you feel bearing down instead of lifting, reduce the intensity and reset.'
+      ],
+      hips: [
+        'Stabilize your pelvis before moving your leg — the hip bone should not rock or shift.',
+        'Initiate movement from the deep hip rotators, not the surface muscles.',
+        'Keep your standing leg active and grounded with weight evenly distributed.',
+        'Move through full range of motion with control at every point.',
+        'Breathe steadily — exhale on the effort phase, inhale on the return.'
+      ],
+      spine: [
+        'Articulate through each vertebra sequentially — roll up and down one bone at a time.',
+        'Maintain length in the spine — imagine space between each vertebra.',
+        'Keep your core engaged to support spinal movement and prevent strain.',
+        'Move only within a pain-free range — never force a position.',
+        'Coordinate breath with spinal movement: exhale to flex, inhale to extend.'
+      ],
+      shoulders: [
+        'Set your shoulder blades down and back before loading the arms.',
+        'Keep wrists aligned with forearms — avoid collapsing or hyperextending.',
+        'Engage your lats and mid-back muscles to support shoulder movement.',
+        'Maintain a long neck with chin slightly tucked — avoid jutting forward.',
+        'Control the eccentric (lowering) phase as much as the concentric (lifting) phase.'
+      ],
+      breath: [
+        'Inhale through the nose for 4 counts, expanding the ribcage laterally.',
+        'Exhale through pursed lips for 6 counts, gently drawing the navel inward.',
+        'Allow the breath to lead the movement — do not hold your breath.',
+        'Notice the natural pause between inhale and exhale without forcing it.',
+        'If you feel dizzy, return to your natural breathing rhythm and rest.'
+      ],
+      athletic: [
+        'Warm up thoroughly before attempting athletic-level exercises.',
+        'Maintain core stability throughout explosive or dynamic movements.',
+        'Focus on landing mechanics — absorb force through bent knees and engaged glutes.',
+        'Train deceleration control as much as acceleration and power.',
+        'Progress gradually — master the slow version before adding speed.'
+      ],
+      flexibility: [
+        'Warm the muscles before stretching — never stretch cold tissues.',
+        'Hold each stretch for 30-60 seconds for lasting flexibility gains.',
+        'Breathe into the stretch — exhale to deepen, inhale to maintain.',
+        'Stretch to the point of gentle tension, never pain.',
+        'Combine active engagement with passive lengthening for functional flexibility.'
+      ],
+      posture: [
+        'Stand tall through the crown of your head — imagine a string pulling you upward.',
+        'Stack your ribcage directly over your pelvis — avoid flaring or collapsing.',
+        'Keep your shoulders directly over your hips in standing exercises.',
+        'Engage your deep core to support your natural spinal curves.',
+        'Check your alignment in a mirror until correct posture becomes habitual.'
+      ],
+      postpartum: [
+        'Always obtain medical clearance before beginning postpartum exercise.',
+        'Start with gentle breath work and pelvic floor activation before adding load.',
+        'Watch for signs of diastasis recti — avoid exercises that cause doming.',
+        'Progress very gradually — your body has been through a major event.',
+        'Honor your energy levels — some days less is more, and that is okay.'
+      ],
+      longevity: [
+        'Prioritize joint mobility work before strength exercises.',
+        'Include balance challenges in every session to build fall prevention.',
+        'Use controlled tempo — 3 seconds up, 3 seconds down — to protect joints.',
+        'Listen to your body and modify exercises as needed for comfort.',
+        'Consistency matters more than intensity — show up regularly.'
+      ],
+      stress: [
+        'Begin each session with 2-3 minutes of centering breath work.',
+        'Move slowly and deliberately — this is restorative, not performative.',
+        'Release tension in the jaw, neck, and shoulders throughout the session.',
+        'Use constructive rest position between exercises to reset your nervous system.',
+        'End with a body scan to notice where you hold tension and consciously release it.'
+      ],
+      reformer: [
+        'Control the carriage throughout the full range — never let springs slam.',
+        'Maintain core engagement as you work against spring resistance.',
+        'Align your body precisely on the carriage — positioning matters.',
+        'Breathe rhythmically with the movement of the carriage.',
+        'Start with lighter spring tension and progress as your form solidifies.'
+      ]
+    };
+
+    function getExerciseById(id) {
+      if (typeof EXERCISE_DATABASE === 'undefined') return null;
+      for (var i = 0; i < EXERCISE_DATABASE.length; i++) {
+        if (EXERCISE_DATABASE[i].id === id) return EXERCISE_DATABASE[i];
+      }
+      return null;
+    }
+
+    function getRelatedExercises(exercise, limit) {
+      if (typeof EXERCISE_DATABASE === 'undefined') return [];
+      var related = [];
+      for (var i = 0; i < EXERCISE_DATABASE.length; i++) {
+        var ex = EXERCISE_DATABASE[i];
+        if (ex.id !== exercise.id && ex.category === exercise.category) {
+          related.push(ex);
+        }
+      }
+      // Shuffle and limit
+      related.sort(function() { return 0.5 - Math.random(); });
+      return related.slice(0, limit || 4);
+    }
+
+    function slugify(text) {
+      return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    }
+
+    function renderExercise(exercise) {
+      var name = exercise.name[LANG] || exercise.name.en;
+      var desc = exercise.description[LANG] || exercise.description.en;
+      var muscles = exercise.muscles[LANG] || exercise.muscles.en;
+      var targets = exercise.targets[LANG] || exercise.targets.en;
+      var category = CATEGORY_LABELS[exercise.category] || exercise.category;
+      var cues = FORM_CUES[exercise.category] || FORM_CUES.core;
+
+      // Update page title and meta
+      document.title = name + ' — Exercise Detail | PilatesForWomen.com';
+      document.getElementById('breadcrumb-name').textContent = name;
+      document.getElementById('hero-title').textContent = name;
+      document.getElementById('hero-desc').textContent = desc;
+
+      // Update meta description
+      var metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.setAttribute('content', name + ' — ' + desc);
+
+      var contentEl = document.getElementById('exercise-content');
+      contentEl.innerHTML =
+        '<section class="exercise-full">' +
+          '<div class="container">' +
+            '<div class="exercise-layout">' +
+              '<div class="exercise-image">' +
+                '<img src="' + exercise.image + '" alt="' + name + ' demonstration" width="600" height="400">' +
+              '</div>' +
+              '<div class="exercise-info">' +
+                '<span class="exercise-info__badge exercise-info__badge--' + exercise.difficulty + '">' + exercise.difficulty.charAt(0).toUpperCase() + exercise.difficulty.slice(1) + '</span>' +
+                '<h2 class="exercise-info__title">' + name + '</h2>' +
+                '<p class="exercise-info__desc">' + desc + '</p>' +
+                '<div class="exercise-meta">' +
+                  '<div class="exercise-meta__item">' +
+                    '<div class="exercise-meta__label">Difficulty</div>' +
+                    '<div class="exercise-meta__value">' + exercise.difficulty.charAt(0).toUpperCase() + exercise.difficulty.slice(1) + '</div>' +
+                  '</div>' +
+                  '<div class="exercise-meta__item">' +
+                    '<div class="exercise-meta__label">Muscles</div>' +
+                    '<div class="exercise-meta__value">' + muscles + '</div>' +
+                  '</div>' +
+                  '<div class="exercise-meta__item">' +
+                    '<div class="exercise-meta__label">Duration</div>' +
+                    '<div class="exercise-meta__value">' + exercise.duration + '</div>' +
+                  '</div>' +
+                '</div>' +
+                '<div class="exercise-targets">' +
+                  '<h3 class="exercise-targets__title">Target Areas</h3>' +
+                  '<div class="exercise-targets__list">' +
+                    targets.map(function(t) { return '<span class="exercise-targets__tag">' + t + '</span>'; }).join('') +
+                  '</div>' +
+                '</div>' +
+                '<div class="exercise-cues">' +
+                  '<h3 class="exercise-cues__title">Form Cues &amp; Tips</h3>' +
+                  '<ol class="exercise-cues__list">' +
+                    cues.map(function(cue, i) {
+                      return '<li class="exercise-cues__item">' +
+                        '<span class="exercise-cues__num">' + (i + 1) + '</span>' +
+                        '<span class="exercise-cues__text">' + cue + '</span>' +
+                      '</li>';
+                    }).join('') +
+                  '</ol>' +
+                '</div>' +
+                '<a href="/exercises/" class="btn btn--accent" style="margin-top:var(--space-lg)">Back to Exercise Library</a>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+        '</section>';
+
+      // Render related exercises
+      var related = getRelatedExercises(exercise, 4);
+      if (related.length > 0) {
+        var relatedSection = document.getElementById('related-section');
+        var relatedGrid = document.getElementById('related-grid');
+        relatedSection.style.display = '';
+
+        relatedGrid.innerHTML = related.map(function(ex) {
+          var exName = ex.name[LANG] || ex.name.en;
+          var exCat = CATEGORY_LABELS[ex.category] || ex.category;
+          return '<a href="/exercises/detail/?id=' + ex.id + '" class="related-card" style="text-decoration:none;">' +
+            '<div class="related-card__image">' +
+              '<img src="' + ex.image + '" alt="' + exName + '" loading="lazy" width="400" height="267">' +
+            '</div>' +
+            '<div class="related-card__body">' +
+              '<div class="related-card__category">' + exCat + '</div>' +
+              '<div class="related-card__name">' + exName + '</div>' +
+              '<div class="related-card__difficulty">' + ex.difficulty.charAt(0).toUpperCase() + ex.difficulty.slice(1) + ' &middot; ' + ex.duration + '</div>' +
+            '</div>' +
+          '</a>';
+        }).join('');
+      }
+    }
+
+    function renderNotFound() {
+      var contentEl = document.getElementById('exercise-content');
+      contentEl.innerHTML =
+        '<section class="not-found">' +
+          '<div class="container">' +
+            '<div class="not-found__icon">🔍</div>' +
+            '<h2 class="not-found__title">Exercise Not Found</h2>' +
+            '<p class="not-found__desc">We couldn\'t find that exercise. Browse our full library to find what you\'re looking for.</p>' +
+            '<a href="/exercises/" class="btn btn--accent btn--lg">Browse Exercise Library</a>' +
+          '</div>' +
+        '</section>';
+    }
+
+    // Parse ID from URL
+    var params = new URLSearchParams(window.location.search);
+    var exerciseId = parseInt(params.get('id'), 10);
+
+    if (exerciseId && !isNaN(exerciseId)) {
+      // Wait for database to load
+      function tryRender() {
+        if (typeof EXERCISE_DATABASE !== 'undefined') {
+          var exercise = getExerciseById(exerciseId);
+          if (exercise) {
+            renderExercise(exercise);
+          } else {
+            renderNotFound();
+          }
+        } else {
+          setTimeout(tryRender, 50);
+        }
+      }
+      tryRender();
+    } else {
+      renderNotFound();
+    }
+  })();
+  </script>
+</body>
+</html>
