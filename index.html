@@ -35,12 +35,13 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "PilatesForWomen.com",
-    "url": "https://pilatesforwomen.com",
-    "description": "The definitive movement home for Black women. Form-first, cycle-aware, performance-capable Pilates. 78+ exercises, 5 program paths, and community.",
+    "alternateName": "Pilates For Women",
+    "url": "https://pilatesforwomen.com/",
+    "description": "The definitive movement home for Black women. Form-first, cycle-aware, performance-capable Pilates.",
     "inLanguage": ["en", "es", "fr"],
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://pilatesforwomen.com/?q={search_term_string}",
+      "target": "https://pilatesforwomen.com/exercises/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -86,40 +87,80 @@
         "name": "What is PilatesForWomen.com?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "PilatesForWomen.com is the definitive movement home for Black women, offering form-first, cycle-aware, performance-capable Pilates designed for strength, calm, and lifelong movement. Our library includes 78+ exercises across 14 categories with beginner to advanced levels."
+          "text": "PilatesForWomen.com is the definitive online Pilates platform designed specifically for Black women. It features 78+ exercises across 14 categories, 5 structured program paths, 8 sport-specific athletic programs, and cycle-aware training that adapts to your body's current phase — from menstrual reset to perimenopause strength."
         }
       },
       {
         "@type": "Question",
-        "name": "Is Pilates good for Black women?",
+        "name": "Is Pilates effective for Black women?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pilates is excellent for all women, and our platform specifically addresses the unique needs of Black women with culturally intelligent coaching, cycle-aware programming, life-stage adjustments, and athletic performance training. We focus on joint longevity, pelvic floor health, stress management, and hormonal support."
+          "text": "Absolutely. PilatesForWomen.com addresses the unique biomechanical, hormonal, and lifestyle factors that matter for Black women — including culturally intelligent coaching, cycle-aware programming, pelvic floor health, joint longevity, and stress management through movement."
         }
       },
       {
         "@type": "Question",
-        "name": "What are Movement Seasons in Pilates?",
+        "name": "What does cycle-aware Pilates mean?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Movement Seasons are our approach to training based on your body's current phase — not difficulty level. Seasons include High Energy Week, Low Energy Week, Menstrual Reset, Postpartum Return, Perimenopause Strength, and Stress Recovery Mode. Each season adjusts intensity, breath patterns, tempo, and load."
+          "text": "Cycle-aware Pilates adjusts training intensity, exercise selection, breathing patterns, and recovery based on your hormonal phase. During high-energy phases, you train with more power and speed. During low-energy phases or menstrual reset, sessions become gentler and more restorative."
         }
       },
       {
         "@type": "Question",
-        "name": "Can I do Pilates after pregnancy?",
+        "name": "How much does PilatesForWomen.com cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Our Postpartum Return program offers gentle core reconnection and pelvic floor integration designed specifically for the postpartum body. Always consult your healthcare provider before starting any exercise program after pregnancy."
+          "text": "PilatesForWomen.com offers three tiers: a Free Plan ($0/forever) with the form library, weekly drops, and movement season quiz; the Movement Vault ($19/month) with full access to all content and athlete plans; and Pathway Programs ($49-199 per program) with structured milestones and certification."
         }
       },
       {
         "@type": "Question",
-        "name": "How is athletic Pilates different from regular Pilates?",
+        "name": "Do I need equipment for online Pilates?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Athletic Pilates focuses on sport-specific performance: ankle stiffness for sprinters, hip drive for runners, deceleration control for court sports, rotational strength for tennis and golf, and shoulder integrity for all athletes. It builds durability and power alongside the core benefits of traditional Pilates."
+          "text": "Most sessions require only a mat. Some advanced sessions may incorporate resistance bands, small balls, or light weights (2-5 lbs), but equipment is always optional — bodyweight alternatives are provided for every exercise across all programs."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Can complete beginners use PilatesForWomen.com?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every exercise includes beginner modifications, and the Core & Pelvic Path program starts from absolute zero. The platform serves all levels from complete beginner to competitive athlete, with clear progression guidance at every stage."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PilatesForWomen.com",
+    "url": "https://pilatesforwomen.com/",
+    "description": "The definitive Pilates platform for Black women — form-first, cycle-aware, performance-capable movement.",
+    "foundingDate": "2025",
+    "sameAs": [],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "url": "https://pilatesforwomen.com/contact/"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free Plan",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Form library, weekly drops, movement season quiz"
+      },
+      {
+        "@type": "Offer",
+        "name": "Movement Vault",
+        "price": "19",
+        "priceCurrency": "USD",
+        "description": "Full access to all weekly drops, athlete plans, and form clinic"
       }
     ]
   }
@@ -144,6 +185,9 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/manifest.json">
 
   <!-- Theme Color -->
   <meta name="theme-color" content="#1a1a2e">
@@ -1012,6 +1056,49 @@
             <button type="submit" class="btn btn--accent">Subscribe</button>
           </form>
         </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ Section (AEO) ==================== -->
+    <section class="faq-section" style="padding:4rem 2rem;max-width:900px;margin:0 auto;" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 style="font-family:'Playfair Display',serif;font-size:2rem;text-align:center;color:#e2c4ff;margin-bottom:2rem;">Frequently Asked Questions</h2>
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">What is PilatesForWomen.com?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">PilatesForWomen.com is the definitive online Pilates platform designed specifically for Black women. It features 78+ exercises across 14 categories, 5 structured program paths, 8 sport-specific athletic programs, and cycle-aware training that adapts to your body's current phase — from menstrual reset to perimenopause strength.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Is Pilates effective for Black women?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Absolutely. PilatesForWomen.com addresses the unique biomechanical, hormonal, and lifestyle factors that matter for Black women — including culturally intelligent coaching, cycle-aware programming, pelvic floor health, joint longevity, and stress management through movement.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">What does cycle-aware Pilates mean?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Cycle-aware Pilates adjusts training intensity, exercise selection, breathing patterns, and recovery based on your hormonal phase. During high-energy phases, you train with more power and speed. During low-energy phases or menstrual reset, sessions become gentler and more restorative.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">How much does PilatesForWomen.com cost?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">PilatesForWomen.com offers three tiers: a Free Plan ($0/forever) with the form library, weekly drops, and movement season quiz; the Movement Vault ($19/month) with full access to all content and athlete plans; and Pathway Programs ($49-199 per program) with structured milestones and certification.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Do I need equipment for online Pilates?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Most sessions require only a mat. Some advanced sessions may incorporate resistance bands, small balls, or light weights (2-5 lbs), but equipment is always optional — bodyweight alternatives are provided for every exercise across all programs.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Can complete beginners use PilatesForWomen.com?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Yes. Every exercise includes beginner modifications, and the Core & Pelvic Path program starts from absolute zero. The platform serves all levels from complete beginner to competitive athlete, with clear progression guidance at every stage.</p>
+          </div>
+        </details>
       </div>
     </section>
   </main>

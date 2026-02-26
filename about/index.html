@@ -24,6 +24,58 @@
     "isPartOf": { "@type": "WebSite", "name": "PilatesForWomen.com", "url": "https://pilatesforwomen.com" }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://pilatesforwomen.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About",
+        "item": "https://pilatesforwomen.com/about/"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Who created PilatesForWomen.com?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PilatesForWomen.com was created to fill a critical gap in the fitness industry — a Pilates platform that centers Black women. It combines evidence-based movement science with culturally intelligent coaching and cycle-aware programming."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What makes PilatesForWomen.com different from other Pilates platforms?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Three pillars distinguish it: Form-First instruction that prioritizes precision mechanics, Cycle-Aware programming that adapts to hormonal phases and life stages, and Performance-Capable training that scales from gentle recovery to athletic durability."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is PilatesForWomen.com evidence-based?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Exercise selection, program design, and progression protocols are informed by current sports science, physiotherapy research, and biomechanical evidence. The platform bridges the gap between clinical rehabilitation and athletic performance."
+        }
+      }
+    ]
+  }
+  </script>
   <link rel="alternate" hreflang="en" href="https://pilatesforwomen.com/about/">
   <link rel="alternate" hreflang="es" href="https://pilatesforwomen.com/es/about/">
   <link rel="alternate" hreflang="fr" href="https://pilatesforwomen.com/fr/about/">
@@ -409,6 +461,31 @@
             <a href="/exercises/" class="btn btn--outline-light btn--lg">Browse Exercise Library</a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ Section (AEO) ==================== -->
+    <section class="faq-section" style="padding:4rem 2rem;max-width:900px;margin:0 auto;" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 style="font-family:'Playfair Display',serif;font-size:2rem;text-align:center;color:#e2c4ff;margin-bottom:2rem;">Frequently Asked Questions</h2>
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Who created PilatesForWomen.com?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">PilatesForWomen.com was created to fill a critical gap in the fitness industry — a Pilates platform that centers Black women. It combines evidence-based movement science with culturally intelligent coaching and cycle-aware programming.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">What makes PilatesForWomen.com different from other Pilates platforms?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Three pillars distinguish it: Form-First instruction that prioritizes precision mechanics, Cycle-Aware programming that adapts to hormonal phases and life stages, and Performance-Capable training that scales from gentle recovery to athletic durability.</p>
+          </div>
+        </details>
+        <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(226,196,255,0.15);border-radius:12px;padding:1.25rem 1.5rem;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary style="cursor:pointer;font-weight:600;color:#e2c4ff;font-size:1.05rem;" itemprop="name">Is PilatesForWomen.com evidence-based?</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text" style="margin-top:0.75rem;color:rgba(255,255,255,0.8);line-height:1.7;">Yes. Exercise selection, program design, and progression protocols are informed by current sports science, physiotherapy research, and biomechanical evidence. The platform bridges the gap between clinical rehabilitation and athletic performance.</p>
+          </div>
+        </details>
       </div>
     </section>
   </main>
